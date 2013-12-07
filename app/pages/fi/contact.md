@@ -1,6 +1,3 @@
-
-# Yhteystiedot
-
 Helsingin Lyceumklubi ry<br/>
 Rauhankatu 7 E<br/>
 00170 Helsinki<br/>

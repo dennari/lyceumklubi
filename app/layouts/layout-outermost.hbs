@@ -19,15 +19,16 @@
 
   </head>
 <body>
-
+<div id="bottom-line"></div>
 
   {{>navbar}}
 
   <div class="container bs-docs-container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-3 sidebar-column">
         {{>sidenav}}
-      <div class="col-md-9" role="main">
+      </div>
+      <div class="col-md-7 main-column" role="main">
         {{> body }}
       </div>
     </div>

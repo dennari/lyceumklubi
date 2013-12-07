@@ -1,9 +1,29 @@
-<li{{#is slug "about"}} class="active"{{/is}}>
-  <a href="./about.html">{{#tr "club"}}{{capitalizeFirst translated}}{{/tr}}</a>
+{{!-- <li{{#is slug "about"}} class="active"{{/is}}>
+  <a href="#{{tr "club"}}">{{#tr "club"}}{{capitalizeFirst translated}}{{/tr}}</a>
 </li>
 <li{{#is slug "program"}} class="active"{{/is}}>
-  <a href="./program.html">{{#tr "program"}}{{capitalizeFirst translated}}{{/tr}}</a>
+  <a href="#{{tr "program"}}">{{#tr "program"}}{{capitalizeFirst translated}}{{/tr}}</a>
 </li>
 <li{{#is slug "contact"}} class="active"{{/is}}>
-  <a href="./contact.html">{{#tr "contact"}}{{capitalizeFirst translated}}{{/tr}}</a>
+  <a href="#{{tr "contact"}}">{{#tr "contact"}}{{capitalizeFirst translated}}{{/tr}}</a>
+</li>    --}}
+<li>
+  <a href="#club">{{#tr "club"}}{{capitalizeFirst translated}}{{/tr}}</a>
+</li>
+<li>
+  <a href="#activities">{{#tr "activities"}}{{capitalizeFirst translated}}{{/tr}}</a>
+  <ul class="nav">
+	  <li>
+	  	<a href="#program">{{#tr "program"}}{{capitalizeFirst translated}}{{/tr}}</a>	  	
+	  </li>
+	  <li>
+	  	<a href="#membership">{{#tr "membership"}}{{capitalizeFirst translated}}{{/tr}}</a>	  	
+	  </li>
+	  <li>
+	  	<a href="#administration">{{#tr "administration"}}{{capitalizeFirst translated}}{{/tr}}</a>	  	
+	  </li>
+  </ul>
+</li>
+<li>
+  <a href="#contact">{{#tr "contact"}}{{capitalizeFirst translated}}{{/tr}}</a>
 </li>   

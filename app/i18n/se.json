@@ -1,9 +1,12 @@
 {
-	"helsinkis": 		"helsingfors",
-	"lyceumclub":	 		"lyceumklubb",
-	"club": "klubb",
+	"helsinkis": 	"helsingfors",
+	"lyceumclub":	"lyceumklubb",
+	"club": 			"lyceumklubb",
 	"about-us": 	"lyceumklubb",
-	"program": 		"program",
-	"front-page":   "frontsida",
+	"activities": "aktivitet",
+	"program":	"program",
+	"membership": "becoming a memeber",
+	"administration": "administration",
+	"front-page": "frontsida",
 	"contact": 		"kontakt"     
 }

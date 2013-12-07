@@ -1,10 +1,3 @@
----
-title: Om oss
-layout: page
-pageOrder: 2
-img: 7928866476_d065479427_b.jpg
----
-
  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

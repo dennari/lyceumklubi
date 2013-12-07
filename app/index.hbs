@@ -1,5 +1,10 @@
+
+<article><div class="hero-unit"></div></article>
+ 
+
 {{#compose 'app/pages/*.hbs'}}
 	<article>
+			<h1 id="{{key}}">{{#tr key}}{{capitalizeFirst translated}}{{/tr}}</h1>
 			{{{this.content}}}
 	</article>
 {{/compose}}

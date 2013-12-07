@@ -1,0 +1,26 @@
+---
+key: activities
+---
+{{#is language 'fi'}}
+	{{md 'app/pages/fi/activities.md'}}
+{{else}}
+	{{md 'app/pages/se/activities.md'}}
+{{/is}}
+<h3 id="program">{{#tr "program"}}{{capitalizeFirst translated}}{{/tr}}</h3>
+{{#is language 'fi'}}
+	{{md 'app/pages/fi/program.md'}}
+{{else}}
+	{{md 'app/pages/se/program.md'}}
+{{/is}}
+<h3 id="membership">{{#tr "membership"}}{{capitalizeFirst translated}}{{/tr}}</h3>
+{{#is language 'fi'}}
+	{{md 'app/pages/fi/membership.md'}}
+{{else}}
+	{{md 'app/pages/se/membership.md'}}
+{{/is}}
+<h3 id="administration">{{#tr "administration"}}{{capitalizeFirst translated}}{{/tr}}</h3>
+{{#is language 'fi'}}
+	{{md 'app/pages/fi/administration.md'}}
+{{else}}
+	{{md 'app/pages/se/administration.md'}}
+{{/is}}

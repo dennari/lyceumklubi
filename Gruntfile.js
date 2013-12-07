@@ -91,8 +91,27 @@ module.exports = function (grunt) {
             helpers: ['helper-compose','hbs-helpers/*.js']
           },
           dist: {
+            options: {
+                language: 'fi'
+            },
             files: {
               '<%= yeoman.dist %>/': ['<%= yeoman.app %>/index.hbs']
+            } 
+          },
+          dist_fi: {
+            options: {
+                language: 'fi'
+            },
+            files: {
+              '<%= yeoman.dist %>/fi/': ['<%= yeoman.app %>/index.hbs']
+            } 
+          },
+          dist_se: {
+            options: {
+                language: 'se'
+            },
+            files: {
+              '<%= yeoman.dist %>/se/': ['<%= yeoman.app %>/index.hbs']
             } 
           },
           def: {
@@ -208,6 +227,11 @@ module.exports = function (grunt) {
                 } 
             },
             dist: {
+                options: {
+                    beautify: false,
+                    mangle: true,
+                    compress: false
+                },
                 files: {
                   '<%= yeoman.dist %>/scripts/main.js': [
                     '<%= yeoman.app %>/scripts/main.js',
@@ -306,8 +330,8 @@ module.exports = function (grunt) {
                 'copy:styles'
             ],
             dist: [
-                'recess',
-                'copy:styles',
+                'recess:dist',
+                'uglify:dist',
                 'assemble',
                 'imagemin',
                 'svgmin',
@@ -349,11 +373,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'concurrent:dist',
-        'concat',
-        'uglify',
-        'copy:dist',
-        'rev',
-        'usemin'
+        'copy:dist'
     ]);
 
     grunt.registerTask('default', [

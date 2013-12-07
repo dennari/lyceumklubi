@@ -48,22 +48,33 @@
 @import "../vendor/bootstrap/less/utilities.less";
 @import "../vendor/bootstrap/less/responsive-utilities.less";
 
+html, body {
+  height: 100%;
+}
 
 body {
   position: relative; /* For scrollyspy */
-  padding-top: 30px; /* Account for fixed navbar */
+  padding-top: 20px; /* Account for fixed navbar */
 }
 
 #main-logo-container {
     // position: absolute;
     // left: 10px;
     // top: 5px;
-    width: 250px;
+    //width: 250px;
+    text-align: center;
+    .brand-col {
+      padding-right: 0;
+    }
     img {
-        max-height: 70px;
+        .img-responsive();
+        .center-block();
+        //min-height: 72px;
+        min-width: 86px; 
+        margin-bottom: 10px;
     }
     a {
-        margin-top: 7px;
+        
         font-family: 'Vollkorn', serif;
         font-weight: 400;        
         font-size: @font-size-h3;
@@ -71,10 +82,11 @@ body {
         .line1 {       
             font-weight: 400;
         }
-        :hover {
-            text-decoration: none;
-        }
     }
+    a:hover  {
+          color: @primary;
+          text-decoration: none;
+    };
 
 }
 
@@ -89,12 +101,51 @@ body {
  * Variables & General
  */
 
-@lyceum-color: #171b4a;
-@lyceum-color-bg: lighten(@lyceum-color, 75%);
+@primary: #171b4a;
+@primary-bg: lighten(@primary, 75%);
+
+ 
+// Primary Variants -
+@primaryLight:   hsl(hue(@primary), 100%, 70%);
+@primaryDark:    hsl(hue(@primary), 60%, 40%);
+@primaryFaded:   hsl(hue(@primary), 60%, 65%);
+ 
+// 180degree Variants
+@variant:         spin((@primary), 180);
+@variantLight:    hsl(hue(@variant), 100%, 70%);
+@variantDark:     hsl(hue(@variant), 60%, 40%);
+@variantFaded:    hsl(hue(@variant), 60%, 65%);
+ 
+// 90degree Variants
+@corner:         spin((@primary), 70);
+@cornerLight:    hsl(hue(@corner), 100%, 70%);
+@cornerDark:     hsl(hue(@corner), 60%, 40%);
+@cornerFaded:    hsl(hue(@corner), 60%, 65%);
 
 a {
-    color: @lyceum-color;
+    color: @primary;
+    :hover,:focus {
+      color: @primary;
+      text-decoration: none;
+    };
 }
+
+.colortest {
+    height: 30px;
+}
+#color1 { background-color: @primary;}
+#color2 { background-color: @primaryLight;}
+#color3 { background-color: @primaryDark;}
+#color4 { background-color: @primaryFaded;}
+#color5 { background-color: @variant;}
+#color6 { background-color: @variantLight;}
+#color7 { background-color: @variantDark;}
+#color8 { background-color: @variantFaded;}
+#color9 { background-color: @corner;}
+#color10 { background-color: @cornerLight;}
+#color11 { background-color: @cornerDark;}
+#color12 { background-color: @cornerFaded;}
+
 
 /*
  * Top Navbar
@@ -102,10 +153,57 @@ a {
  */
 
 .navbar-fixed-top {
-    border-top: 5px solid @lyceum-color;
+    border-top: 5px solid @primary;
+    min-height: 10px;
+    li > a {
+      //padding: 10px 5px 20px 0px;      
+      line-height: 10px;
+      //font-size: @font-size-h3;
+      font-weight: 300;
+      font-family: 'Open Sans','sans serif'; 
+    }
+    li > a:hover, li > a:focus {
+      background-color: transparent;
+      text-decoration: none;
+      color: @primary;
+      
+    }
 }
 
+#bottom-line
+{
+  position: fixed;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  background-color: @primary;
+  z-index: 10;
+}
 
+article {
+  background-color: hsl(hue(@variant), 50%, 95%);
+  padding: 30px 30px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  p {
+    text-align: justify;
+  }
+  h1 {
+    //padding-top: 30px;
+    margin-top: -10px;
+  }
+}
+
+.main-column 
+
+.hero-unit {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('/assets/boat_at_night.jpg');
+  height: 230px;
+  //margin-bottom: 30px;
+  border-radius: 2px;
+}
 /*
  * Side navigation
  *
@@ -124,37 +222,51 @@ a {
   margin-bottom: 30px;
   padding-top:    10px;
   padding-bottom: 10px;
-  border-right: 1px solid @lyceum-color;
-  //.box-shadow(inset 1px 0px 0px @lyceum-color);
+  //border-right: 1px solid @primary;
+  //.box-shadow(inset 1px 0px 0px @primary);
   //text-shadow: 0 1px 0 #fff;
-  // background-color: @lyceum-color-bg;
-  border-radius: 0px;
+
+}
+.main-column {
+  // background-color: hsl(hue(@variant), 50%, 95%);
+  // padding: 20px 30px;
+  // border-radius: 2px;
+
+  //height: 100%;
 }
 
 /* All levels of nav */
 .bs-sidebar .nav > li > a {
   display: block;
-  color: #000;
+  color: @primary;
   font-size: @font-size-h3;
   font-weight: 300;
   text-align: right;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-family: 'Open Sans','sans serif';
   padding: 5px 20px;
+  margin: 0 0 5px 0;
+  //.button-variant(#fff; transpar; @primaryLight)
+  border-radius: 2px;
 }
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
+  background-color: @primary;
   text-decoration: none;
-  background-color: transparent;
-  //border-right: 1px solid @lyceum-color;
+  color: #fff;
+  //background-color: transparent;
+  //border-right: 1px solid @primary;
 }
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
 .bs-sidebar .nav > .active:focus > a {
-  font-weight: bold;
-  color: #563d7c;
-  background-color: transparent;
+  //font-weight: 400;
+  //color: #563d7c;
+  //background-color: transparent;
   border-right: 1px solid #000;
+  background-color: @primary;
+  color: #fff;
+
 }
 
 /* Nav: second level (shown on .active) */
@@ -165,7 +277,43 @@ a {
 .bs-sidebar .nav .nav > li > a {
   padding-top:    3px;
   padding-bottom: 3px;
-  padding-left: 30px;
-  font-size: 90%;
+  padding-right: 30px;
+  font-size: @font-size-h5;
+  font-weight: 400;
 }
+
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+  // show the sub menu
+  .bs-sidebar .nav > .active > ul {
+    display: block;
+  }
+  /* Widen the fixed sidebar */
+  .bs-sidebar.affix,
+  .bs-sidebar.affix-bottom {
+    width: 213px;
+  }
+  .bs-sidebar.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 20px;
+  }
+  // .bs-sidebar.affix-bottom {
+  //   position: absolute; /* Undo the static from mobile first approach */
+  // }
+  // .bs-sidebar.affix-bottom .bs-sidenav,
+  // .bs-sidebar.affix .bs-sidenav {
+  //   margin-top: 0;
+  //   margin-bottom: 0;
+  // }
+}
+@media (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .bs-sidebar.affix-bottom,
+  .bs-sidebar.affix {
+    width: 263px;
+  }
+}
+
+
 

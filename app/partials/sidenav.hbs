@@ -1,22 +1,20 @@
  <div class="bs-sidebar hidden-print" role="complementary">
-    <div id="main-logo-container">
-      <a href="./index.html">
-        <img class="brand" src="/assets/logo.png"/>
-      </a>
-{{!--       <div class="pull-right">
-      <a href="./index.html" id="logo-text">
-        <div>{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</div>
-        <div>{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</div>
-      </a>
-      </div> --}}
-      <a href="./index.html" id="logo-text" class="pull-right">
-        <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
-        <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
-      </a>
-      
-    </div>      
-    <ul class="nav bs-sidenav">
-      {{>nav-items}}
-    </ul>
+  <div id="main-logo-container">
+
+        <a href="./index.html">
+          <img class="brand" src="/assets/logo.png"/>
+        </a>
+
+
+        <a href="./index.html" id="logo-text">
+          <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
+          <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
+        </a>
+
+
   </div>
+
+  <ul class="nav bs-sidenav">
+    {{>nav-items}}
+  </ul>
 </div>

@@ -1,0 +1,3 @@
+prose:
+  rooturl: app/pages
+  media: app/assets

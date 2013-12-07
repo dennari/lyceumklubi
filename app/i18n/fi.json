@@ -1,9 +1,12 @@
 {
 	"helsinkis": 		"helsingin",
 	"lyceumclub":	"lyceumklubi",
-	"club": "klubi",
+	"club": 			"lyceumklubi",
 	"about-us": 	"lyceumklubi",
-	"program": 		"toiminta",
+	"activities": 		"toiminta",
+	"program":	"ohjelma",
+	"membership": "jäseneksi liittyminen",
+	"administration": "hallitus",
 	"front-page":   "etusivu",
 	"contact": 		"yhteystiedot"   
 }
