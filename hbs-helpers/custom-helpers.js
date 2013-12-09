@@ -1,5 +1,5 @@
 (function() {
-  module.exports.register = function(Handlebars, options) {
+  module.exports.register = function(Handlebars, options, params) {
 
     /**
      * Helper name
@@ -29,6 +29,33 @@
       
       return tr;      
 
+    });
+
+    
+  
+
+    /**
+     * Helper name
+     * @param  {[type]} str [description]
+     * @return {[type]}     [description]
+     */
+    Handlebars.registerHelper('rev', function(key, options) {
+      if (typeof this.distdir === "undefined") {
+        throw "No distdir defined";
+      }
+      var pref = new RegExp("^"+this.distdir.replace(/\/$/,'')+"/");
+      var o = params.grunt.filerev;
+      //params.grunt.log.writeln
+      if(o && o.summary) {
+         
+        for(var k in o.summary) {
+            if(key == k.replace(pref,''))
+                return o.summary[k].replace(pref,'');
+        };
+       
+      }   
+
+      return key;
     });
 
   };

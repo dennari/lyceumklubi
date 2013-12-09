@@ -87,6 +87,7 @@ module.exports = function (grunt) {
             assets: '<%= yeoman.app %>/assets',
             partials: ['<%= yeoman.app %>/partials/*.hbs'],
             language: 'fi',
+            distdir: '<%= yeoman.dist %>',
             data: '<%= yeoman.app %>/**/*.json',
             helpers: ['helper-compose','hbs-helpers/*.js']
           },
@@ -205,14 +206,12 @@ module.exports = function (grunt) {
                 }
             }
         },
-        // not used since Uglify task does concat,
-        // but still available if needed
-        /*concat: {
-            dist: {}
-        },*/
-        // not enabled since usemin task does concat and uglify
-        // check index.html to edit your build targets
-        // enable this task if you prefer defining your build targets here
+
+        scripts: [
+            'scripts/main.js',
+            'vendor/bootstrap/dist/js/bootstrap.js'
+        ],
+
         uglify: {
             server: {
                 options: {
@@ -240,18 +239,17 @@ module.exports = function (grunt) {
                 } 
             }
         },
-        // rev: {
-        //     dist: {
-        //         files: {
-        //             src: [
-        //                 '<%= yeoman.dist %>/scripts/{,*/}*.js',
-        //                 '<%= yeoman.dist %>/styles/{,*/}*.css',
-        //                 '<%= yeoman.dist %>/images/{,*/}*.{gif,jpeg,jpg,png,webp}',
-        //                 '<%= yeoman.dist %>/styles/fonts/{,*/}*.*'
-        //             ]
-        //         }
-        //     }
-        // },
+        filerev: {
+            dist: {
+                src: [
+                    '<%= yeoman.dist %>/scripts/{,*/}*.js',
+                    '<%= yeoman.dist %>/styles/{,*/}*.css',
+                    '<%= yeoman.dist %>/assets/{,*/}*.{gif,jpeg,jpg,png,webp}',
+                    '<%= yeoman.dist %>/styles/fonts/{,*/}*.*'
+                ]
+            }
+        },
+
         // useminPrepare: {
         //     options: {
         //         dest: '<%= yeoman.dist %>'
@@ -332,10 +330,51 @@ module.exports = function (grunt) {
             dist: [
                 'recess:dist',
                 'uglify:dist',
-                'assemble',
                 'imagemin',
-                'svgmin',
+                'svgmin'                
+            ]         
+        },
+        //aws: grunt.file.readJSON("credentials.json"),
+        s3: {
+          options: {
+            accessKeyId: "AKIAII54LSHZLBATPQEQ",
+            secretAccessKey: "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",
+            bucket: "lyceum",
+            headers: {
+                Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
+                CacheControl: 2*360*24*3600 //max-age=630720000, public
+            }
+          },
+          jscss: {
+             options: {
+                gzip: true
+            },
+            cwd: "<%= yeoman.dist %>/",
+            src: [
+                "styles/*.css",
+                "scripts/*.js"
             ]
+          },
+          html: {
+            options: {
+                gzip: true,
+                headers: {
+                    Expires: new Date(),
+                    CacheControl: 0 //max-age=630720000, public
+                }
+            },
+            cwd: "<%= yeoman.dist %>/",
+            src: ['*', 'fi/*.html', 'se/*.html']
+          },
+          img: {
+            options: {
+                gzip: false
+            },
+            cwd: "<%= yeoman.dist %>/",
+            src: [                
+                "assets/**"
+            ]
+          }
         }
     });
 
@@ -370,11 +409,23 @@ module.exports = function (grunt) {
         'mocha'
     ]);
 
-    grunt.registerTask('build', [
-        'clean:dist',
-        'concurrent:dist',
-        'copy:dist'
-    ]);
+    grunt.registerTask('revlog', function () {
+      grunt.log.writeln(JSON.stringify(grunt.filerev.summary,null,2));
+    });
+
+    grunt.registerTask('build', function() {
+        grunt.task.run([
+            'clean:dist',
+            'concurrent:dist',
+            'copy:dist',
+            'filerev',
+            'assemble',
+            'revlog'
+        ]);
+        
+    });
+
+
 
     grunt.registerTask('default', [
         'jshint',

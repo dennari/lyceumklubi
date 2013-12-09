@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/{{rev "styles/main.css"}}">
     <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
     <script>
       WebFont.load({
@@ -38,7 +38,7 @@
   <footer>
     {{>footer}}
   </footer>
-  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
@@ -50,7 +50,9 @@
     ga('create','UA-XXXXX-X');ga('send','pageview');
   </script>
 
-
-  <script src="/scripts/main.js"></script>
+  
+  <script src="/{{rev "scripts/main.js"}}"></script>
+  
+  
 </body>
 </html>
