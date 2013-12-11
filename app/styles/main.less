@@ -57,11 +57,12 @@ body {
   padding-top: 20px; /* Account for fixed navbar */
 }
 
-#main-logo-container {
+.main-logo-container {
     // position: absolute;
     // left: 10px;
     // top: 5px;
     //width: 250px;
+    display: block;
     text-align: center;
     .brand-col {
       padding-right: 0;
@@ -73,22 +74,28 @@ body {
         min-width: 86px; 
         margin-bottom: 10px;
     }
-    a {
-        
-        font-family: 'Vollkorn', serif;
-        font-weight: 400;        
-        font-size: @font-size-h3;
-        line-height: 1.0;
-        .line1 {       
-            font-weight: 400;
-        }
-    }
-    a:hover  {
-          color: @primary;
-          text-decoration: none;
-    };
+
 
 }
+
+#mobile-logo {
+  margin-bottom: 20px;
+}
+
+a.logo {
+    
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;        
+    font-size: @font-size-h3;
+    line-height: 1.0;
+    .line1 {       
+        font-weight: 400;
+    }
+}
+a.logo:hover  {
+      //color: @primary;
+      text-decoration: none;
+};
 
 .browsehappy {
     margin: 0.2em 0;
@@ -153,10 +160,22 @@ a {
  */
 
 .navbar-fixed-top {
-    border-top: 5px solid @primary;
-    min-height: 10px;
+    background-color: @primary;
+    //height: 50px;
+    color: #fff;
+    .navbar-toggle .icon-bar {
+      background-color: #fff;
+    }
+    a {
+      color: #fff;
+    }
+    .navbar-right a {
+      color: @primary;
+    }
     li > a {
       //padding: 10px 5px 20px 0px;      
+      color: #fff;
+      
       line-height: 10px;
       //font-size: @font-size-h3;
       font-weight: 300;
@@ -165,10 +184,14 @@ a {
     li > a:hover, li > a:focus {
       background-color: transparent;
       text-decoration: none;
-      color: @primary;
+      //color: @primary;
+      color: #fff;
       
     }
+
 }
+
+
 
 #bottom-line
 {
@@ -193,8 +216,7 @@ article {
     margin-top: -10px;
   }
 }
-
-.main-column 
+ 
 
 .hero-unit {
   background-size: cover;
@@ -210,9 +232,20 @@ article {
  * sections of docs content.
  */
 
-/* By default it's not affixed in mobile views, so undo that */
-.bs-sidebar.affix {
-  position: static;
+/* No sidebar when width < 768 */
+.bs-sidebar {
+  position: fixed;
+  display: none;
+  //border: 1px solid red;
+  //float: right;
+  //z-index: 5;
+  //width: 100%;
+  //right: 0;
+  //position: static;
+}
+.sidebar-wrapper {
+  position: absolute;
+  right: 0;
 }
 
 /* First level of nav */
@@ -230,8 +263,14 @@ article {
   // background-color: hsl(hue(@variant), 50%, 95%);
   // padding: 20px 30px;
   // border-radius: 2px;
-
+  //border: 1px solid green;
   //height: 100%;
+  padding-top: 50px;
+}
+
+.sidebar-column {
+  //border: 1px solid blue;
+  position: relative;
 }
 
 /* All levels of nav */
@@ -248,6 +287,10 @@ article {
   //.button-variant(#fff; transpar; @primaryLight)
   border-radius: 2px;
 }
+.bs-sidebar .lang-nav > li > a {
+  font-size: @font-size-h5;
+}
+
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
   background-color: @primary;
@@ -283,19 +326,46 @@ article {
 
 
 /* Show and affix the side nav when space allows it */
-@media (min-width: 992px) {
+@media (min-width: @screen-tablet) {
   // show the sub menu
   .bs-sidebar .nav > .active > ul {
     display: block;
   }
   /* Widen the fixed sidebar */
-  .bs-sidebar.affix,
-  .bs-sidebar.affix-bottom {
-    width: 213px;
+  // .bs-sidebar.affix,
+  // .bs-sidebar.affix-bottom {
+  //   width: 213px;
+  // }
+
+  .navbar-fixed-top {
+    min-height: 5px;
+    max-height: 5px;
   }
-  .bs-sidebar.affix {
-    position: fixed; /* Undo the static from mobile first approach */
-    top: 20px;
+
+  .main-column {
+    padding-top: 5px;
+  }
+
+  #mobile-logo {
+    display: none;
+  }
+
+  .mobile-nav-header {
+    display: none;
+  }
+
+  .mobile-nav-items {
+    display: none;
+  }
+  .bs-sidebar {
+    //position: fixed; /* Undo the static from mobile first approach */
+    //top: 20px;
+    width: 190px;
+    display: block;
+  }
+  .sidebar-wrapper
+  {
+    width: 190px;
   }
   // .bs-sidebar.affix-bottom {
   //   position: absolute; /* Undo the static from mobile first approach */
@@ -306,10 +376,24 @@ article {
   //   margin-bottom: 0;
   // }
 }
-@media (min-width: 1200px) {
-  /* Widen the fixed sidebar again */
-  .bs-sidebar.affix-bottom,
-  .bs-sidebar.affix {
+@media (min-width: @screen-desktop) {
+  
+  .bs-sidebar {
+    width: 213px;
+  }
+  .sidebar-wrapper
+  {
+    width: 213px;
+  }
+}
+
+@media (min-width: @screen-lg-desktop) {
+ 
+  .bs-sidebar {
+    width: 263px;
+  }
+  .sidebar-wrapper
+  {
     width: 263px;
   }
 }

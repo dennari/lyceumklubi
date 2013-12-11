@@ -21,10 +21,10 @@
     var $body   = $(document.body)
 
     var navHeight = $('.navbar').outerHeight(true) + 10
-    console.log(navHeight);
+    //console.log(navHeight);
 
     $body.scrollspy({
-      target: '.bs-sidebar',
+      target: '#scrollspy-wrap',
       offset: navHeight
     })
 
@@ -32,67 +32,42 @@
       $body.scrollspy('refresh')
     })
 
-    $('.bs-docs-container [href=#]').click(function (e) {
-      e.preventDefault()
-    })
+    // $('.bs-docs-container [href=#]').click(function (e) {
+    //   e.preventDefault()
+    // })
 
-    // back to top
-    setTimeout(function () {
-      var $sideBar = $('.bs-sidebar')
-      var $bottomLine = $('.bs-sidebar')
+    // // back to top
+    // setTimeout(function () {
+    //   var $sideBar = $('.bs-sidebar')
+    //   var $bottomLine = $('.bs-sidebar')
 
-      $sideBar.affix({
-        offset: {
-          top: function () {
-            var offsetTop      = $sideBar.offset().top
-            var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
-            var navOuterHeight = $('.bs-docs-nav').height()
+    //   $sideBar.affix({
+    //     offset: {
+    //       top: function () {
+    //         var offsetTop      = $sideBar.offset().top
+    //         var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
+    //         var navOuterHeight = $('.bs-docs-nav').height()
 
-            //return (this.top = offsetTop - navOuterHeight - sideBarMargin)
-            return (this.top = 0)
+    //         //return (this.top = offsetTop - navOuterHeight - sideBarMargin)
+    //         return (this.top = 0)
 
-          }
-        , bottom: function () {
-            return (this.bottom = $('.bs-footer').outerHeight(true))
-          }
-        }
-      })
+    //       }
+    //     , bottom: function () {
+    //         return (this.bottom = $('.bs-footer').outerHeight(true))
+    //       }
+    //     }
+    //   })
 
 
       
-    }, 100)
+    // }, 100)
 
-    setTimeout(function () {
-      $('.bs-top').affix()
-    }, 100)
+    // setTimeout(function () {
+    //   $('.bs-top').affix()
+    // }, 100)
 
-    // tooltip demo
-    $('.tooltip-demo').tooltip({
-      selector: "[data-toggle=tooltip]",
-      container: "body"
-    })
 
-    $('.tooltip-test').tooltip()
-    $('.popover-test').popover()
 
-    $('.bs-docs-navbar').tooltip({
-      selector: "a[data-toggle=tooltip]",
-      container: ".bs-docs-navbar .nav"
-    })
-
-    // popover demo
-    $("[data-toggle=popover]")
-      .popover()
-
-    // button state demo
-    $('#fat-btn')
-      .click(function () {
-        var btn = $(this)
-        btn.button('loading')
-        setTimeout(function () {
-          btn.button('reset')
-        }, 3000)
-      })
 })
 
 }(jQuery)

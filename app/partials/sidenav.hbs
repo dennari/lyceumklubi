@@ -1,20 +1,29 @@
  <div class="bs-sidebar hidden-print" role="complementary">
-  <div id="main-logo-container">
+  <div class="main-logo-container">
 
         <a href="./index.html">
           <img class="brand" src="/{{rev "assets/logo.png"}}"/>
         </a>
 
 
-        <a href="./index.html" id="logo-text">
+        <a href="./index.html" class="logo">
           <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
           <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
         </a>
 
 
   </div>
-
+  <div id="scrollspy-wrap">
   <ul class="nav bs-sidenav">
     {{>nav-items}}
+  </ul>
+  </div>
+  <ul class="nav lang-nav">
+    <li{{#is language "fi"}} class="active"{{/is}}>
+      <a href="/fi/index.html">Suomeksi</a>
+    </li>
+    <li{{#is language "se"}} class="active"{{/is}}>
+      <a href="/se/index.html">På Svenska</a>
+    </li>
   </ul>
 </div>
