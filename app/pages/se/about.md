@@ -10,11 +10,8 @@ I föreningens stadgar (§ 1) sägs:
 
 >och erbjuder tillfällen för rekreation samt möjligheter att delta i de internationella Lyceumklubbarnas verksamhet. 
 
+Helsingfors Lyceumklubb hör till det år 1906 grundade Internationella förbundet för Lyceumklubbar (International Association of Lyceum Clubs). Det finns sammanlagt 71 Lyceumklubbar i 16 länder och de har ca 8200 medlemmar tillsammans. Det internationella förbundet verkar på tre språk, engelska, franska och tyska. Förbundets verksamhetsidé har ända från början varit "internationella kontakter och ständigt lärande, så att medlemmarna hjälper och stöder varandra, runt om i världen som varande självständiga och modiga, hoppfulla och öppna till sinnet".  Klubbmedlemmarna i de olika länderna träffas vart tredje år på det internationella förbundets kongresser och däremellan på så kallade kulturdagar. På dessa sammankomster presenterar värdlandet mångsidigt sin kultur genom högklassigt program. Helsingfors Lyceumklubb har ordnat internationella kongresser år 1968 och 1995.
 
-
-Helsingin Lyceumklubi kuuluu vuonna 1906 perustettuun Lyceumklubien kansainväliseen liittoon (International Association of Lyceum Clubs). Lyceumklubeja on 16 valtiossa kaikkiaan 71 ja niissä jäseniä n. 8200. Kansainvälisen liiton virallisia kieliä ovat englanti, ranska ja saksa. Liiton toiminta-ajatuksena on alusta alkaen ollut ”kansainvälisyys ja jatkuva oppiminen, joiden mukaan jäsenet auttaisivat ja tukisivat 
-toisiaan ystävyyden hengessä kautta maailman itsenäisinä ja rohkeina, toivorikkaina ja mieleltään avoimina”. Eri maiden klubilaiset tapaavat joka kolmas vuosi pidettävässä Kansainvälisen liiton kongressissa ja joka toinen vuosi kulttuuritapahtumassa. Näissä kokoontumisissa osallistujille esitellään monipuolisesti kulloistakin isäntämaata. Helsingin Lyceumklubi on toiminut kansainvälisen kongressin järjestäjänä vuosina 
-1968 ja 1995.
 
 ### Klubin historiaa
 
