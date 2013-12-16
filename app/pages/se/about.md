@@ -20,5 +20,6 @@ Helsingfors Lyceumklubb hör till det år 1906 grundade Internationella förbund
 
 
 
+
 De damer som grundade Helsingfors Lyceumklubb var på sin tid märkbara personer som modigt ville skapa en motsvarande tvåspråkig förening som samlingsplats för damer, som herrarna hade. De lyckades också nå sitt mål. I medlemsförteckningarna under tidigare årtionden syns namnen på såväl kända kulturpersonligheter, presidentskor som damer verksamma inom vetenskap. Krigsåren innebar en stor samhällelig brytningstid som också inverkade på föreningens verksamhet men inte på dess grundläggande verksamhetsidé. Under årens lopp har man så småningom upphört med den mångsidiga klubbsverksamheten och koncentrerat sig på föredragstillfällen och besök till kulturella mål. 
 
