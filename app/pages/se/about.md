@@ -1,15 +1,16 @@
 ## Lyceumklubben
-Hit ska komma svensk text. Nu finns bara den finska texten här!  Helsingin Lyceumklubi on eri aloilla toimivien taiteista, tieteistä ja yhteiskunnallisista kysymyksistä kiinnostuneiden naisten vuonna 1932 perustama klubi, joka toimii viehättävässä huoneistossaan Helsingin Kruununhaassa. Klubi on kaksikielinen siten, että suomen- ja ruotsinkieliset esitelmät vuorottelevat. 
-Jäseniä on noin 120. 
+Helsingfors Lyceumklubb är en förening för damer intresserade av konst, vetenskap och samhälleliga frågor. Föreningen är grundad år 1932 och funktionerar i sin charmiga lägenhet i Kronohagen. Föreningen är tvåspråkig med turvis finsk- och svenskspråkiga föredrag. Medlemsantalet är ca 120.
 
-Yhdistyksen säännöissä (§ 1) todetaan seuraavasti:
->Klubin tarkoituksena on edistää yhteisymmärrystä eri aloilla toimivien, taiteista, tieteistä ja yhteiskunnallisista kiinnostuneiden naisten kesken. Tarkoituksensa toteuttamiseksi klubi järjestää jäsenilleen
+I föreningens stadgar (§ 1) sägs:
+>Klubbens syfte är att främja samförstånd mellan kvinnor, som verkar på olika områden, är intresserade av konst, vetenskap och sociala frågor. För att nå sitt mål anordnar klubben för sina medlemmar 
 
->* esitelmätilaisuuksia kulttuurin eri aloilta,
->* vierailukäyntejä näyttelyihin ja retkikohteisiin,
->* keskustelutilaisuuksia
+>* föredragstillfällen från olika kulturområden,
+>* besök till utställningar och exkursionsmål,
+>* diskussionstillfällen
 
->ja tarjoaa tilaisuuksia virkistävään yhdessäoloon sekä mahdollisuuksia osallistua kansainvälisten Lyceumklubien toimintaan.
+>och erbjuder tillfällen för rekreation samt möjligheter att delta i de internationella Lyceumklubbarnas verksamhet. 
+
+
 
 Helsingin Lyceumklubi kuuluu vuonna 1906 perustettuun Lyceumklubien kansainväliseen liittoon (International Association of Lyceum Clubs). Lyceumklubeja on 16 valtiossa kaikkiaan 71 ja niissä jäseniä n. 8200. Kansainvälisen liiton virallisia kieliä ovat englanti, ranska ja saksa. Liiton toiminta-ajatuksena on alusta alkaen ollut ”kansainvälisyys ja jatkuva oppiminen, joiden mukaan jäsenet auttaisivat ja tukisivat 
 toisiaan ystävyyden hengessä kautta maailman itsenäisinä ja rohkeina, toivorikkaina ja mieleltään avoimina”. Eri maiden klubilaiset tapaavat joka kolmas vuosi pidettävässä Kansainvälisen liiton kongressissa ja joka toinen vuosi kulttuuritapahtumassa. Näissä kokoontumisissa osallistujille esitellään monipuolisesti kulloistakin isäntämaata. Helsingin Lyceumklubi on toiminut kansainvälisen kongressin järjestäjänä vuosina 
