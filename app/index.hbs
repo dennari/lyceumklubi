@@ -1,15 +1,17 @@
+---
+layout: layout-outermost.hbs
+---
 <div class="main-logo-container" id="mobile-logo">
 
-        <a href="./index.html">
-          <img class="brand" src="/{{rev "assets/logo.png"}}"/>
-        </a>
+	<a href="./index.html">
+	  <img class="brand" src="/{{rev "assets/logo.png"}}"/>
+	</a>
 
 
-        <a href="./index.html" class="logo">
-          <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
-          <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
-        </a>
-
+	<a href="./index.html" class="logo">
+	  <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
+	  <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
+	</a>
 
 </div>
 
@@ -22,9 +24,13 @@
 </article>
  
 
-{{#compose 'app/pages/*.hbs'}}
+{{#withSort pages "data.order"}}
+	{{#is isCurrentPage false}}
 	<article>
-			<h1 id="{{key}}">{{#tr key}}{{capitalizeFirst translated}}{{/tr}}</h1>
-			{{{this.content}}}
+			<h1 id="{{data.key}}">{{#tr data.key}}{{capitalizeFirst translated}}{{/tr}}</h1>
+		{{#markdown }}	
+			{{{page}}}
+		{{/markdown}}
 	</article>
-{{/compose}}
+	{{/is}}
+{{/withSort}}

@@ -1,3 +1,7 @@
+---
+key: club
+order: 10
+---
 Helsingin Lyceumklubi on eri aloilla toimivien taiteista, tieteistä ja yhteiskunnallisista kysymyksistä kiinnostuneiden naisten vuonna 1932 perustama klubi, joka toimii viehättävässä huoneistossaan Helsingin Kruununhaassa. Klubi on kaksikielinen siten, että suomen- ja ruotsinkieliset esitelmät vuorottelevat. 
 Jäseniä on noin 120. 
 

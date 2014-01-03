@@ -1,1 +1,0 @@
-Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, joilta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2013 liittymismaksu on 20 euroa ja jäsenmaksu 50 euroa.

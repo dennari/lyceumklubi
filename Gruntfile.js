@@ -82,52 +82,19 @@ module.exports = function (grunt) {
         assemble: {
           options: {
             flatten: true,
-            layout: 'layout-outermost.hbs',
             layoutdir: '<%= yeoman.app %>/layouts',
             assets: '<%= yeoman.app %>/assets',
             partials: ['<%= yeoman.app %>/partials/*.hbs'],
-            language: 'fi',
             distdir: '<%= yeoman.dist %>',
             data: '<%= yeoman.app %>/**/*.json',
-            helpers: ['helper-compose','hbs-helpers/*.js']
-          },
-          dist: {
-            options: {
-                language: 'fi'
-            },
-            files: {
-              '<%= yeoman.dist %>/': ['<%= yeoman.app %>/index.hbs']
-            } 
-          },
-          dist_fi: {
-            options: {
-                language: 'fi'
-            },
-            files: {
-              '<%= yeoman.dist %>/fi/': ['<%= yeoman.app %>/index.hbs']
-            } 
-          },
-          dist_se: {
-            options: {
-                language: 'se'
-            },
-            files: {
-              '<%= yeoman.dist %>/se/': ['<%= yeoman.app %>/index.hbs']
-            } 
-          },
-          def: {
-            options: {
-                language: 'fi'
-            },
-            files: {
-              '.tmp/': ['<%= yeoman.app %>/index.hbs']
-            }
+            helpers: ['hbs-helpers/*.js']
           },
           fi: {
             options: {
                 language: 'fi'
             },
-            files: {
+            files: {              
+              '.tmp/del/': ['<%= yeoman.app %>/pages/fi/*.md'],
               '.tmp/fi/': ['<%= yeoman.app %>/index.hbs']
             }
           },
@@ -136,6 +103,7 @@ module.exports = function (grunt) {
                 language: 'se'
             },
             files: {
+              '.tmp/del/': ['<%= yeoman.app %>/pages/se/*.md'],
               '.tmp/se/': ['<%= yeoman.app %>/index.hbs']
             }
           }
@@ -295,6 +263,12 @@ module.exports = function (grunt) {
         },
         // Put files not handled in other tasks here
         copy: {
+            def: {
+              expand: true,
+              cwd: '.tmp/fi/',
+              dest: '.tmp/',
+              src: ['index.html']
+            },
             dist: {
                 files: [{
                     expand: true,
@@ -307,6 +281,16 @@ module.exports = function (grunt) {
                         'assets/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*'
                     ]
+                },{
+                    expand: true,
+                    dot: true,
+                    cwd: '.tmp',
+                    dest: '<%= yeoman.dist %>',
+                    src: [
+                        '*.html',
+                        'fi/*.html',
+                        'se/*.html'
+                    ]   
                 }]
             },
             styles: {
@@ -390,7 +374,7 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'concurrent:server',
-
+            'copy:def',
             'connect:livereload',
             'watch'
         ]);

@@ -54,7 +54,7 @@ html, body {
 
 body {
   position: relative; /* For scrollyspy */
-  padding-top: 20px; /* Account for fixed navbar */
+  padding-top: 0; /* Account for fixed navbar */
 }
 
 .main-logo-container {
@@ -62,6 +62,7 @@ body {
     // left: 10px;
     // top: 5px;
     //width: 250px;
+    padding-top: 20px;
     display: block;
     text-align: center;
     .brand-col {
@@ -205,8 +206,8 @@ a {
 
 article {
   background-color: hsl(hue(@variant), 10%, 95%);
-  padding: 30px 30px;
-  margin-bottom: 20px;
+  padding: 0 50px 50px 50px;
+  margin-bottom: 0px;
   border-radius: 2px;
   p {
     //text-align: justify;
@@ -215,6 +216,10 @@ article {
     //padding-top: 30px;
     margin-top: -10px;
   }
+}
+
+article:first-of-type {
+  padding-top: 20px;
 }
  
 
