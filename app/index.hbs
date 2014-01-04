@@ -11,7 +11,7 @@ layout: layout-outermost.hbs
 	<a href="./index.html" class="logo">
 	  <span class="line1">{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}}</span><br/>
 	  <span class="line2">{{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</span>
-	</a>
+	</a>  
 
 </div>
 
@@ -24,13 +24,63 @@ layout: layout-outermost.hbs
 </article>
  
 
-{{#withSort pages "data.order"}}
-	{{#is isCurrentPage false}}
-	<article>
-			<h1 id="{{data.key}}">{{#tr data.key}}{{capitalizeFirst translated}}{{/tr}}</h1>
-		{{#markdown }}	
-			{{{page}}}
+
+<article>                      
+	<h1 id="club">{{#tr "club"}}{{capitalizeFirst translated}}{{/tr}}</h1>
+	{{#compose "about.md"}}
+		{{#markdown }}
+			{{{this.content}}} 
 		{{/markdown}}
+	{{/compose}}
+	{{#compose "clubspace.hbs"}}
+		{{{this.content}}}
+	{{/compose}}
+</article>
+<article>                      
+	<h1 id="activities">{{#tr "activities"}}{{capitalizeFirst translated}}{{/tr}}</h1>
+	{{#compose "activities.md"}}
+		{{#markdown }}
+			{{{this.content}}} 
+		{{/markdown}}
+	{{/compose}}
+</article>
+<article>                      
+	<h1 id="contact">{{#tr "contact"}}{{capitalizeFirst translated}}{{/tr}}</h1>
+	{{#compose "contact.md"}}
+		{{#markdown }}
+			{{{this.content}}} 
+		{{/markdown}}
+	{{/compose}}
+</article>
+
+{{!-- {{#compose '*'}}
+	<article>                      
+	 <h1 id="{{key}}">{{#tr key}}{{capitalizeFirst translated}}{{/tr}}</h1>
+	 {{{this.content}}}
 	</article>
-	{{/is}}
-{{/withSort}}
+{{/compose}} --}}
+
+{{!-- {{#compose '*'}}
+	{{debug tags}}
+	{{#inArray tags "noarticle"}}
+		{{noop}}
+	{{else}}
+		<article>                      
+			<h1 id="{{key}}">{{#tr key}}{{capitalizeFirst translated}}{{/tr}}</h1>		
+	{{/inArray}}
+	
+	{{#inArray tags "nomd"}}
+		 		{{{../content}}}
+	{{else}}
+	    {{#markdown }}  
+		 		{{{../content}}}
+		 	{{/markdown}}
+	{{/inArray}}
+	
+	{{#inArray tags "noarticle"}}
+		{{noop}}
+	{{else}}
+		</article>
+	{{/inArray}}
+
+{{/compose}} --}}

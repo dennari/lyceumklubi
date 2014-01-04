@@ -32,39 +32,14 @@
       $body.scrollspy('refresh')
     })
 
-    // $('.bs-docs-container [href=#]').click(function (e) {
-    //   e.preventDefault()
-    // })
-
-    // // back to top
-    // setTimeout(function () {
-    //   var $sideBar = $('.bs-sidebar')
-    //   var $bottomLine = $('.bs-sidebar')
-
-    //   $sideBar.affix({
-    //     offset: {
-    //       top: function () {
-    //         var offsetTop      = $sideBar.offset().top
-    //         var sideBarMargin  = parseInt($sideBar.children(0).css('margin-top'), 10)
-    //         var navOuterHeight = $('.bs-docs-nav').height()
-
-    //         //return (this.top = offsetTop - navOuterHeight - sideBarMargin)
-    //         return (this.top = 0)
-
-    //       }
-    //     , bottom: function () {
-    //         return (this.bottom = $('.bs-footer').outerHeight(true))
-    //       }
-    //     }
-    //   })
-
-
-      
-    // }, 100)
-
-    // setTimeout(function () {
-    //   $('.bs-top').affix()
-    // }, 100)
+    $('.img-row').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+      // other options
+    });
 
 
 

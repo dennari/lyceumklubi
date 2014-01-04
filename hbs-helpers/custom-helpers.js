@@ -1,6 +1,8 @@
 (function() {
   module.exports.register = function(Handlebars, options, params) {
 
+    var assembleOpts = options || {};
+
     /**
      * Helper name
      * @param  {[type]} str [description]
@@ -42,10 +44,10 @@
      * @return {[type]}     [description]
      */
     Handlebars.registerHelper('rev', function(key, options) {
-      if (typeof this.distdir === "undefined") {
+      if (typeof params.assemble.options.distdir === "undefined") {
         throw "No distdir defined";
       }
-      var pref = new RegExp("^"+this.distdir.replace(/\/$/,'')+"/");
+      var pref = new RegExp("^"+params.assemble.options.distdir.replace(/\/$/,'')+"/");
       var o = params.grunt.filerev;
       //params.grunt.log.writeln
       if(o && o.summary) {
@@ -59,6 +61,20 @@
 
       return key;
     });
+
+
+    Handlebars.registerHelper('mycompose', function(key, options) {
+      
+      var file = "app/pages/"+assembleOpts.language+"/"+key;
+      //params.grunt.log.writeln(JSON.stringify({key: key, options: options, compose: assembleOpts.compose},null,2));
+      var result = Handlebars.helpers.compose.call(this, key, options);
+      params.grunt.log.writeln(JSON.stringify(result,null,2));
+      return result;
+
+
+    });
+
+
 
   };
 }).call(this);

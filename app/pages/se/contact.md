@@ -1,7 +1,4 @@
----
-key: contact
-order: 30
----
+
 Helsingfors Lyceumklub rf 
 Fredsgatan 7 E 
 00170 Helsingfors 

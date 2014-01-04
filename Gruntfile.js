@@ -57,14 +57,14 @@ module.exports = function (grunt) {
             compile: true    
           },
           server: {
-            src: ['<%= yeoman.app %>/styles/main.less'],
+            src: ['<%= yeoman.app %>/styles/main.less','<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
             dest: '.tmp/styles/main.css'
           },
           dist: {
             options: {
               compress: true
             },
-            src: ['<%= yeoman.app %>/styles/main.less'],
+            src: ['<%= yeoman.app %>/styles/main.less','<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
             dest: '<%= yeoman.dist %>/styles/main.css'
           },
           // theme: {
@@ -87,23 +87,30 @@ module.exports = function (grunt) {
             partials: ['<%= yeoman.app %>/partials/*.hbs'],
             distdir: '<%= yeoman.dist %>',
             data: '<%= yeoman.app %>/**/*.json',
-            helpers: ['hbs-helpers/*.js']
+            helpers: ['helper-compose', 'hbs-helpers/*.js'],
+            language: 'fi'
           },
           fi: {
             options: {
-                language: 'fi'
+                language: 'fi',
+                compose: {
+                    cwd: '<%= yeoman.app %>/pages/fi'
+                }
             },
             files: {              
-              '.tmp/del/': ['<%= yeoman.app %>/pages/fi/*.md'],
+              '.tmp/del/': ['<%= yeoman.app %>/pages/fi/*'],
               '.tmp/fi/': ['<%= yeoman.app %>/index.hbs']
             }
           },
           se: {
             options: {
-                language: 'se'
+                language: 'se',
+                compose: {
+                    cwd: '<%= yeoman.app %>/pages/se'
+                }
             },
             files: {
-              '.tmp/del/': ['<%= yeoman.app %>/pages/se/*.md'],
+              '.tmp/del/': ['<%= yeoman.app %>/pages/se/*'],
               '.tmp/se/': ['<%= yeoman.app %>/index.hbs']
             }
           }
@@ -175,11 +182,6 @@ module.exports = function (grunt) {
             }
         },
 
-        scripts: [
-            'scripts/main.js',
-            'vendor/bootstrap/dist/js/bootstrap.js'
-        ],
-
         uglify: {
             server: {
                 options: {
@@ -189,7 +191,8 @@ module.exports = function (grunt) {
                 files: {
                   '.tmp/scripts/main.js': [
                     '<%= yeoman.app %>/scripts/main.js',
-                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js'
+                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
+                    '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
                     ]  
                 } 
             },
@@ -202,7 +205,8 @@ module.exports = function (grunt) {
                 files: {
                   '<%= yeoman.dist %>/scripts/main.js': [
                     '<%= yeoman.app %>/scripts/main.js',
-                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js'
+                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
+                    '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
                     ]  
                 } 
             }
@@ -249,16 +253,6 @@ module.exports = function (grunt) {
                     src: '{,*/}*.svg',
                     dest: '<%= yeoman.dist %>/assets'
                 }]
-            }
-        },
-        cssmin: {            
-            dist: {
-                files: {
-                    '<%= yeoman.dist %>/styles/main.css': [
-                        '.tmp/styles/{,*/}*.css',
-                        '<%= yeoman.app %>/styles/{,*/}*.css'
-                    ]
-                }
             }
         },
         // Put files not handled in other tasks here
@@ -401,9 +395,10 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:dist',
             'concurrent:dist',
-            'copy:dist',
             'filerev',
             'assemble',
+            'copy:def',
+            'copy:dist',
             'revlog'
         ]);
         
