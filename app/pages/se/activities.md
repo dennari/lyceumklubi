@@ -23,8 +23,8 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
 * Vice ordförande 
 	* Seija Tiisala 
 * Sekreterare
-	* Kaisu Santala, suomenkielinen sihteeri
-	* Eva Werner, ruotsinkielinen sihteeri 
+	* Kaisu Santala, finskspråkig sekreterare
+	* Eva Werner, svenskspråkig sekreterare 
 * Övriga medlemmar
 	* Birgitta Geust
 	* Hanna-Liisa Ryti-Erkinheimo
