@@ -3,10 +3,10 @@ Numera består Helsingfors Lyceumklubbs verksamhet i huvudsak av ca 25 föredrag
 <br>
 
 <h3 id="program">Program</h3>
-Vårens 2014 program
+**Vårens 2014 program**
      <br> 
-       <br> 
-Vårens program, test
+     <br> 
+
        
     
      
