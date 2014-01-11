@@ -1,7 +1,6 @@
 
 Helsingfors Lyceumklubb rf   
-<br>
-Fredsgatan 7 E 
+<br>   Fredsgatan 7 E 
 00170 Helsingfors 
 tel. (09) 135 7281 
 e-post h.lyceum@gmail.com 
