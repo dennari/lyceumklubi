@@ -1,5 +1,5 @@
 
-Helsingfors Lyceumklub rf 
+Helsingfors Lyceumklubb rf 
 Fredsgatan 7 E 
 00170 Helsingfors 
 tel. (09) 135 7281 
