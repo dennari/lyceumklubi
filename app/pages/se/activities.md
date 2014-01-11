@@ -9,6 +9,7 @@ Numera består Helsingfors Lyceumklubbs verksamhet i huvudsak av ca 25 föredrag
 
 Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2013 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 50 euro.
      <br>
+     <br>
      
 
 
