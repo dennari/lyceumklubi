@@ -17,10 +17,17 @@ layout: layout-outermost.hbs
 
 
 <article>
+{{#is language "fi"}}
 	<div 
 		class="hero-unit" 
-		style="background-image: url('/{{rev "assets/boat_at_night.jpg"}}');">
+		style="background-image: url('/{{rev "assets/helsinki-header-photo-1.jpg"}}');">
 	</div>
+{{else}}
+	<div 
+		class="hero-unit" 
+		style="background-image: url('/{{rev "assets/helsinki-header-photo-2.jpg"}}'); background-position: 50% 40%;">
+	</div>
+{{/is}}
 </article>
  
 
