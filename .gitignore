@@ -5,3 +5,4 @@ dist
 app/vendor
 .DS_Store
 .~*
+.aws-credentials.json

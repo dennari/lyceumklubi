@@ -312,12 +312,12 @@ module.exports = function (grunt) {
                 'svgmin'                
             ]         
         },
-        //aws: grunt.file.readJSON("credentials.json"),
+        aws: grunt.file.readJSON(".aws-credentials.json"),
         s3: {
           options: {
-            accessKeyId: "AKIAII54LSHZLBATPQEQ",
-            secretAccessKey: "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",
-            bucket: "lyceum",
+            accessKeyId: "<%= aws.key %>",
+            secretAccessKey: "<%= aws.secret %>",
+            bucket: "<%= aws.bucket %>",
             headers: {
                 Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
                 CacheControl: 2*360*24*3600 //max-age=630720000, public
