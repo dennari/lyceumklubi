@@ -1,10 +1,14 @@
 
-Helsingfors Lyceumklubb rf  
+###Helsingfors Lyceumklubb rf###  
 Fredsgatan 7 E, 00170 Helsingfors  
 tel. (09) 135 7281  
-e-post h.lyceum@gmail.com  
+[info@helsinginlyceumklubi.fi](mailto:info@helsinginlyceumklubi.fi)
 
-Styrelsens ordförande Leena Kahlas-Tarkka, tel. 040 5465187  
-Styrelsens vice ordförande Seija Tiisala, tel. 040 7210701  
-Finskspråkig sekreterare Kaisu Santala, tel. 050 5151240  
-Svenskspråkig sekreterare Eva Werner, tel. 0400 846658  
+*Styrelsens ordförande*  
+  Leena Kahlas-Tarkka, tel. 040 5465187  
+*Styrelsens vice ordförande*  
+	Seija Tiisala, tel. 040 7210701  
+*Finskspråkig sekreterare*  
+  Kaisu Santala, tel. 050 5151240  
+*Svenskspråkig sekreterare*  
+  Eva Werner, tel. 0400 846658  

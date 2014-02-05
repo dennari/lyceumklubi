@@ -6,3 +6,4 @@ app/vendor
 .DS_Store
 .~*
 .aws-credentials.json
+lyceum_accounts_emails.txt

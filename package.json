@@ -30,7 +30,7 @@
     "assemble": "~0.4.32",
     "helper-compose": "~0.1.1",
     "grunt-filerev": "~0.1.2",
-    "grunt-aws": "~0.2.8"
+    "grunt-aws": "~0.3.0"
   },
   "engines": {
     "node": ">=0.8.0"

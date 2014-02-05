@@ -45,7 +45,9 @@ module.exports = function (grunt) {
                 ]
             },
             assemble: {
-              files: ['<%= yeoman.app %>/layouts/*.hbs',
+              files: [
+                    '<%= yeoman.app %>/**/*.md',
+                    '<%= yeoman.app %>/layouts/*.hbs',
                      '<%= yeoman.app %>/pages/*.hbs',
                      '<%= yeoman.app %>/index.hbs',
                      '<%= yeoman.app %>/partials/*.hbs'],
@@ -257,10 +259,16 @@ module.exports = function (grunt) {
         },
         // Put files not handled in other tasks here
         copy: {
-            def: {
+            fi_index: {
               expand: true,
               cwd: '.tmp/fi/',
               dest: '.tmp/',
+              src: ['index.html']
+            },
+            se_index: {
+              expand: true,
+              cwd: '<%= yeoman.dist %>/se',
+              dest: '<%= yeoman.dist %>',
               src: ['index.html']
             },
             dist: {
@@ -272,7 +280,7 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
-                        'assets/{,*/}*.{webp,gif}',
+                        'assets/{,*/}*.{webp,gif,pdf}',
                         'styles/fonts/{,*/}*.*'
                     ]
                 },{
@@ -318,6 +326,7 @@ module.exports = function (grunt) {
             accessKeyId: "<%= aws.key %>",
             secretAccessKey: "<%= aws.secret %>",
             bucket: "<%= aws.bucket %>",
+            region : "<%= aws.region %>",
             headers: {
                 Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
                 CacheControl: 2*360*24*3600 //max-age=630720000, public
@@ -350,7 +359,20 @@ module.exports = function (grunt) {
             },
             cwd: "<%= yeoman.dist %>/",
             src: [                
-                "assets/**"
+                "assets/{,*/}*.{jpg,png,ico}"
+            ]
+          },
+          pdf: {
+            options: {
+                gzip: false,
+                 headers: {
+                    Expires: new Date(),
+                    CacheControl: 0 //max-age=630720000, public
+                }
+            },
+            cwd: "<%= yeoman.dist %>/",
+            src: [                
+                "assets/{,*/}*.pdf"
             ]
           }
         }
@@ -368,7 +390,7 @@ module.exports = function (grunt) {
         grunt.task.run([
             'clean:server',
             'concurrent:server',
-            'copy:def',
+            'copy:fi_index',
             'connect:livereload',
             'watch'
         ]);
@@ -391,13 +413,27 @@ module.exports = function (grunt) {
       grunt.log.writeln(JSON.stringify(grunt.filerev.summary,null,2));
     });
 
+    grunt.registerTask('s3test', function () {
+        grunt.config("s3.options.bucket",grunt.config("aws.bucket-test"));
+        grunt.task.run(['s3']);
+
+    });
+
+    grunt.registerTask('s3se', function () {
+        grunt.config("s3.options.bucket",grunt.config("aws.bucket-se"));
+        grunt.task.run(['copy:se_index','s3']);
+
+    });
+
+
+
     grunt.registerTask('build', function() {
         grunt.task.run([
             'clean:dist',
             'concurrent:dist',
             'filerev',
             'assemble',
-            'copy:def',
+            'copy:fi_index',
             'copy:dist',
             'revlog'
         ]);
@@ -406,9 +442,4 @@ module.exports = function (grunt) {
 
 
 
-    grunt.registerTask('default', [
-        'jshint',
-        'test',
-        'build'
-    ]);
 };

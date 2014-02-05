@@ -92,11 +92,13 @@ a.logo {
     .line1 {       
         font-weight: 400;
     }
+
+
 }
 a.logo:hover  {
-      //color: @primary;
-      text-decoration: none;
-};
+  color: @primary;
+  text-decoration: none;
+}
 
 .browsehappy {
     margin: 0.2em 0;
@@ -131,11 +133,17 @@ a.logo:hover  {
 @cornerFaded:    hsl(hue(@corner), 60%, 65%);
 
 a {
+    color: @primary;    
+}
+
+a:hover {
     color: @primary;
-    :hover,:focus {
-      color: @primary;
-      text-decoration: none;
-    };
+    // text-decoration: none;
+}
+
+a:focus {
+    color: @primary;
+    text-decoration: none;
 }
 
 .colortest {
