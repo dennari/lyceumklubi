@@ -2,7 +2,7 @@
 ###Helsingfors Lyceumklubb rf###  
 Fredsgatan 7 E, 00170 Helsingfors  
 tel. (09) 135 7281  
-[info@helsinginlyceumklubi.fi](mailto:info@helsinginlyceumklubi.fi)
+[h.lyceum@gmail.com](mailto:h.lyceum@gmail.com)
 
 *Styrelsens ordförande*  
   Leena Kahlas-Tarkka, tel. 040 5465187  

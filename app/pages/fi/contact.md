@@ -3,7 +3,7 @@
 Rauhankatu 7 E  	
 00170 Helsinki 	 
 puh. (09) 135 7281	
-[info@helsinginlyceumklubi.fi](mailto:info@helsinginlyceumklubi.fi)	
+[h.lyceum@gmail.com](mailto:h.lyceum@gmail.com)	
 
 *Hallituksen puheenjohtaja*  
   Leena Kahlas-Tarkka, puh. 040 5465187  
