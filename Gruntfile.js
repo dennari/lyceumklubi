@@ -9,9 +9,9 @@
 
 module.exports = function (grunt) {
     // show elapsed time at the end
-    require('time-grunt')(grunt);
+    //require('time-grunt')(grunt);
     // load all grunt tasks
-    require('load-grunt-tasks')(grunt);
+    //require('load-grunt-tasks')(grunt);
 
     grunt.initConfig({
         // configurable paths
@@ -163,27 +163,6 @@ module.exports = function (grunt) {
             },
             server: '.tmp'
         },
-        jshint: {
-            options: {
-                jshintrc: '.jshintrc',
-                reporter: require('jshint-stylish')
-            },
-            all: [
-                'Gruntfile.js',
-                '<%= yeoman.app %>/scripts/{,*/}*.js',
-                '!<%= yeoman.app %>/scripts/vendor/*',
-                'test/spec/{,*/}*.js'
-            ]
-        },
-        mocha: {
-            all: {
-                options: {
-                    run: true,
-                    urls: ['http://<%= connect.test.options.hostname %>:<%= connect.test.options.port %>/index.html']
-                }
-            }
-        },
-
         uglify: {
             server: {
                 options: {
@@ -316,16 +295,18 @@ module.exports = function (grunt) {
             dist: [
                 'recess:dist',
                 'uglify:dist',
-                'imagemin',
-                'svgmin'                
+                'imagemin'
             ]         
         },
-        aws: grunt.file.readJSON(".aws-credentials.json"),
+        aws: {
+            "bucket-fi": "www.helsinginlyceumklubi.fi",
+            "bucket-test": "helsinginlyceumklubi-test",
+            "bucket-se": "www.helsingforslyceumklubb.fi",
+            "region": "eu-west-1"
+        },
         s3: {
           options: {
-            accessKeyId: "<%= aws.key %>",
-            secretAccessKey: "<%= aws.secret %>",
-            bucket: "<%= aws.bucket %>",
+            bucket: "<%= aws.bucket-fi %>",
             region : "<%= aws.region %>",
             headers: {
                 Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
@@ -379,8 +360,20 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('assemble');
-    grunt.loadNpmTasks('grunt-recess');
+    grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-connect');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-autoprefixer');
+    grunt.loadNpmTasks('grunt-concurrent');
+    grunt.loadNpmTasks('grunt-recess');
+    grunt.loadNpmTasks('grunt-filerev');
+    grunt.loadNpmTasks('grunt-aws');
+
+
 
     grunt.registerTask('serve', function (target) {
         if (target === 'dist') {
@@ -401,17 +394,27 @@ module.exports = function (grunt) {
       grunt.task.run(['serve']);
     });
 
-    grunt.registerTask('test', [
-        'clean:server',
-        'concurrent:test',
-        'autoprefixer',
-        'connect:test',
-        'mocha'
-    ]);
+    // grunt.registerTask('test', [
+    //     'clean:server',
+    //     'concurrent:test',
+    //     'autoprefixer',
+    //     'connect:test',
+    //     'mocha'
+    // ]);
 
     grunt.registerTask('revlog', function () {
       grunt.log.writeln(JSON.stringify(grunt.filerev.summary,null,2));
     });
+
+
+    if(grunt.file.exists('.aws-credentials.json')) {
+        var credentials = grunt.file.readJSON('.aws-credentials.json');
+        grunt.config("s3.options.accessKeyId",credentials.key);
+        grunt.config("s3.options.secretAccessKey",credentials.secret);
+    } else {
+        grunt.config("s3.options.accessKeyId",process.env.AWS_KEY);
+        grunt.config("s3.options.secretAccessKey",process.env.AWS_SECRET);
+    }
 
     grunt.registerTask('s3test', function () {
         grunt.config("s3.options.bucket",grunt.config("aws.bucket-test"));
@@ -423,6 +426,18 @@ module.exports = function (grunt) {
         grunt.config("s3.options.bucket",grunt.config("aws.bucket-se"));
         grunt.task.run(['copy:se_index','s3']);
 
+    });
+
+
+    grunt.registerTask('heroku', function (env) {
+        if(env == "production")
+            grunt.task.run(['build','s3','s3se']);
+        else
+            grunt.task.run(['build','s3test']);
+    });
+
+    grunt.registerTask('default', function () {
+        grunt.task.run(['build','s3test']);
     });
 
 
