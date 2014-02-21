@@ -89,8 +89,11 @@ module.exports = function (grunt) {
             partials: ['<%= yeoman.app %>/partials/*.hbs'],
             distdir: '<%= yeoman.dist %>',
             data: '<%= yeoman.app %>/**/*.json',
-            helpers: ['helper-compose', 'hbs-helpers/*.js'],
-            language: 'fi'
+            helpers: ['handlebars-helper-compose', 'hbs-helpers/*.js'],
+            language: 'fi',
+              compose: {
+                    cwd: '<%= yeoman.app %>/pages/fi'
+                }
           },
           fi: {
             options: {

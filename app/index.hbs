@@ -34,28 +34,28 @@ layout: layout-outermost.hbs
 
 <article>                      
 	<h1 id="club">{{#tr "club"}}{{capitalizeFirst translated}}{{/tr}}</h1>
-	{{#compose "about.md"}}
-		{{#markdown }}
-			{{{this.content}}} 
+	{{#compose src="about.md"}}
+		{{#markdown }}	
+{{{@content}}} 
 		{{/markdown}}
 	{{/compose}}
-	{{#compose "clubspace.hbs"}}
-		{{{this.content}}}
+	{{#compose src="clubspace.hbs"}}
+{{{@content}}}
 	{{/compose}}
 </article>
 <article>                      
 	<h1 id="activities">{{#tr "activities"}}{{capitalizeFirst translated}}{{/tr}}</h1>
-	{{#compose "activities.md"}}
+	{{#compose src="activities.md"}}
 		{{#markdown }}
-			{{{this.content}}} 
+{{{@content}}} 
 		{{/markdown}}
 	{{/compose}}
 </article>
 <article>                      
 	<h1 id="contact">{{#tr "contact"}}{{capitalizeFirst translated}}{{/tr}}</h1>
-	{{#compose "contact.md"}}
+	{{#compose src="contact.md"}}
 		{{#markdown }}
-			{{{this.content}}} 
+{{{@content}}} 
 		{{/markdown}}
 	{{/compose}}
 </article>
