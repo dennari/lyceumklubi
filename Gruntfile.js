@@ -448,7 +448,9 @@ module.exports = function (grunt) {
     grunt.registerTask('build', function() {
         grunt.task.run([
             'clean:dist',
-            'concurrent:dist',
+            'recess:dist',
+            'uglify:dist',
+            'imagemin',
             'filerev',
             'assemble',
             'copy:fi_index',
