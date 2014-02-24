@@ -433,7 +433,7 @@ module.exports = function (grunt) {
 
 
     grunt.registerTask('heroku', function (env) {
-        if(env == "production")
+        if(env == "PRODUCTION")
             grunt.task.run(['build','s3','s3se']);
         else
             grunt.task.run(['build','s3test']);
