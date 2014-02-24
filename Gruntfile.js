@@ -262,7 +262,7 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
-                        'assets/{,*/}*.{webp,gif,pdf}',
+                        'assets/{,*/}*.{jpg,png,webp,gif,pdf}',
                         'styles/fonts/{,*/}*.*'
                     ]
                 },{
@@ -450,7 +450,7 @@ module.exports = function (grunt) {
             'clean:dist',
             'recess:dist',
             'uglify:dist',
-            'imagemin',
+            //'imagemin',
             'filerev',
             'assemble',
             'copy:fi_index',
