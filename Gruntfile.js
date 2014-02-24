@@ -451,10 +451,10 @@ module.exports = function (grunt) {
             'recess:dist',
             'uglify:dist',
             //'imagemin',
-            'filerev',
             'assemble',
             'copy:fi_index',
             'copy:dist',
+            'filerev',
             'revlog'
         ]);
         
