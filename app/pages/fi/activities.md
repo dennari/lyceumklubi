@@ -1,5 +1,5 @@
 
-Nykyään *Helsingin* Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen esitelmätilaisuuksiin, joita järjestetään vuosittain noin 25. Niiden aiheita ja esitelmänpitäjiä valitessaan ohjelmatoimikunta kiinnittää huomiota monipuolisuuden lisäksi myös aiheen ja sen tarkastelukulman ajankohtaisuuteen. Oman osansa klubi-iltojen ohjelmasta muodostaa esitelmän jälkeen käytävä keskustelu. Kevätkauden ohjelma julkaistaan tammi- ja syyskauden ohjelma syyskuun alussa. Kevätkauden päättää perinteinen kevätretki kulttuurihistoriallisesti kiinnostavaan kohteeseen ja syyskauden lopuksi klubihuoneistossa vietetään yhteistä joulujuhlaa.
+Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen esitelmätilaisuuksiin, joita järjestetään vuosittain noin 25. Niiden aiheita ja esitelmänpitäjiä valitessaan ohjelmatoimikunta kiinnittää huomiota monipuolisuuden lisäksi myös aiheen ja sen tarkastelukulman ajankohtaisuuteen. Oman osansa klubi-iltojen ohjelmasta muodostaa esitelmän jälkeen käytävä keskustelu. Kevätkauden ohjelma julkaistaan tammi- ja syyskauden ohjelma syyskuun alussa. Kevätkauden päättää perinteinen kevätretki kulttuurihistoriallisesti kiinnostavaan kohteeseen ja syyskauden lopuksi klubihuoneistossa vietetään yhteistä joulujuhlaa.
 
 <h3 id="program">Ohjelma</h3>
 
