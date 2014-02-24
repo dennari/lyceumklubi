@@ -302,14 +302,14 @@ module.exports = function (grunt) {
             ]         
         },
         aws: {
-            "bucket-fi": "www.helsinginlyceumklubi.fi",
+            "bucketfi": "www.helsinginlyceumklubi.fi",
             "bucket-test": "helsinginlyceumklubi-test",
             "bucket-se": "www.helsingforslyceumklubb.fi",
             "region": "eu-west-1"
         },
         s3: {
           options: {
-            bucket: "<%= aws.bucket-fi %>",
+            bucket: "<%= aws.bucketfi %>",
             region : "<%= aws.region %>",
             headers: {
                 Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
