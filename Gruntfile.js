@@ -253,6 +253,15 @@ module.exports = function (grunt) {
               dest: '<%= yeoman.dist %>',
               src: ['index.html']
             },
+            img: {
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.app %>',
+                    dest: '<%= yeoman.dist %>',
+                    src: [
+                        'assets/{,*/}*.{jpg,png,gif}',
+                    ]
+            },
             dist: {
                 files: [{
                     expand: true,
@@ -262,7 +271,7 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
-                        'assets/{,*/}*.{jpg,png,webp,gif,pdf}',
+                        'assets/{,*/}*.{pdf}',
                         'styles/fonts/{,*/}*.*'
                     ]
                 },{
@@ -451,10 +460,11 @@ module.exports = function (grunt) {
             'recess:dist',
             'uglify:dist',
             //'imagemin',
+            'copy:img',
+            'filerev',
             'assemble',
             'copy:fi_index',
             'copy:dist',
-            'filerev',
             'revlog'
         ]);
         
