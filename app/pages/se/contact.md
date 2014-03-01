@@ -6,8 +6,6 @@ tel. (09) 135 7281
 
 *Styrelsens ordförande*  
   Leena Kahlas-Tarkka, tel. 040 5465187  
-*Styrelsens vice ordförande*  
-	Seija Tiisala, tel. 040 7210701  
 *Finskspråkig sekreterare*  
   Kaisu Santala, tel. 050 5151240  
 *Svenskspråkig sekreterare*  
