@@ -14,13 +14,12 @@ Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av 
 De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består av ordförande och sex ordinarie medlemmar och två suppleanter. Styrelsen väljs för två år i taget. Ordföranden är i tur och ordning finsk- och svenskspråkig, därtill är hälften av styrelsens medlemmar finskspråkiga och hälften svenskspråkiga.
 
 * Ordförande 
-	* Leena Kahlas-Tarkka 
-* Vice ordförande 
-	* Seija Tiisala 
+	* Leena Kahlas-Tarkka  
 * Sekreterare
 	* Kaisu Santala, finskspråkig sekreterare
 	* Eva Werner, svenskspråkig sekreterare 
 * Övriga medlemmar
 	* Birgitta Geust
+	* Marianne Penttinen
 	* Hanna-Liisa Ryti-Erkinheimo
 	* Irma Stenius
