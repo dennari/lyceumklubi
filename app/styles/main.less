@@ -84,7 +84,7 @@ body {
 }
 
 a.logo {
-    
+    color: @primary;
     font-family: 'Vollkorn', serif;
     font-weight: 400;        
     font-size: @font-size-h3;
@@ -133,16 +133,16 @@ a.logo:hover  {
 @cornerFaded:    hsl(hue(@corner), 60%, 65%);
 
 a {
-    color: @primary;    
+    color: @primaryFaded;    
 }
 
 a:hover {
-    color: @primary;
+    color: @primaryLight;
     // text-decoration: none;
 }
 
 a:focus {
-    color: @primary;
+    color: @primaryFaded;
     text-decoration: none;
 }
 
@@ -426,6 +426,11 @@ article:first-of-type {
   {
     width: 263px;
   }
+}
+
+
+span.underlined {
+  text-decoration: underline;
 }
 
 
