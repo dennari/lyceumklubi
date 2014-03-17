@@ -1,4 +1,11 @@
 
+  
+  ### Aktuellt  
+Läs om [Kulturdagarna i Florens](http://www.lyceumclub.org/files/General%20news/Welcome_in_Florence.pdf "Florence") den 22-25 maj 2014.
+
+  
+  ### Om Lyceumklubben
+
 Helsingfors Lyceumklubb är en förening för damer intresserade av konst, vetenskap och samhälleliga frågor. Föreningen är grundad år 1932 och funktionerar i sin charmiga lägenhet i Kronohagen. Föreningen är tvåspråkig med turvis finsk- och svenskspråkiga föredrag. Medlemsantalet är ca 120.
 
 I föreningens stadgar (§ 1) sägs:
