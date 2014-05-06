@@ -14,12 +14,13 @@ Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kii
 Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjohtaja ja kuusi varsinaista ja kaksi varajäsentä. Hallitus valitaan kahdeksi vuodeksi kerrallaan. Puheenjohtaja on vuoroin suomen-, vuoroin ruotsinkielinen, lisäksi puolet hallituksen jäsenistä on suomen- ja puolet ruotsinkielisiä.
 
 * Puheenjohtaja 
-	* Leena Kahlas-Tarkka 
+	* Leena Kahlas-Tarkka   
+* Varapuheenjohtaja 
+	* Birgitta Geust 
 * Sihteerit
 	* Kaisu Santala, suomenkielinen sihteeri
 	* Eva Werner, ruotsinkielinen sihteeri 
-* Muut jäsenet
-	* Birgitta Geust
+* Muut jäsenet  
 	* Marianne Penttinen
     * Hanna-Liisa Ryti-Erkinheimo
 	* Irma Stenius
