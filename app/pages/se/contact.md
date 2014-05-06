@@ -5,7 +5,9 @@ tel. (09) 135 7281
 [h.lyceum@gmail.com](mailto:h.lyceum@gmail.com)
 
 *Styrelsens ordförande*  
-  Leena Kahlas-Tarkka, tel. 040 5465187  
+  Leena Kahlas-Tarkka, tel. 040 5465187 
+*Styrelsens vice ordförande*  
+  Birgitta Geust 
 *Finskspråkig sekreterare*  
   Kaisu Santala, tel. 050 5151240  
 *Svenskspråkig sekreterare*  
