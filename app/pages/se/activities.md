@@ -8,7 +8,7 @@ Höstens 2014 program publiceras i början av september.
 
 <h3 id="membership">Medlemskap</h3>
 
-Enligt stadgarna aaa godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2014 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 50 euro.
+Enligt stadgarna aaaa godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2014 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 50 euro.
      
 <h3 id="administration">Styrelse</h3>
 
