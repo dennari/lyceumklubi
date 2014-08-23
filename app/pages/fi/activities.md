@@ -4,11 +4,11 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 <h3 id="program">Ohjelma</h3>
 
 #### [Kevään 2014 ohjelma](/assets/2014_program_spring_fi.pdf)  
-Syksyn 2014 ohjelma julkaistaan syyskuun alussa.    
+Syksyn 2014 ohjelma julkaistaan kohta!  
 
 <h3 id="membership">Jäsenyys</h3>
 
-ABC  Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2014 liittymismaksu on 20 euroa ja jäsenmaksu 50 euroa. test 
+Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2014 liittymismaksu on 20 euroa ja jäsenmaksu 50 euroa.    
 
 <h3 id="administration">Hallitus</h3>
 
