@@ -4,7 +4,7 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 <h3 id="program">Ohjelma</h3>
 
 #### [Kevään 2014 ohjelma](/assets/2014_program_spring_fi.pdf)  
-Syksyn 2014 ohjelma julkaistaan kohta!  
+Syksyn 2014 ohjelma julkaistaan syyskyyn alussa.
 
 <h3 id="membership">Jäsenyys</h3>
 
