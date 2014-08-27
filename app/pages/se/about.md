@@ -1,7 +1,4 @@
 
-  
-  ### Aktuellt  
-Läs om [Kulturdagarna i Florens](http://www.lyceumclub.org/files/General%20news/Welcome_in_Florence.pdf "Florence") den 22-25 maj 2014.
 
   
   ### Om Lyceumklubben
