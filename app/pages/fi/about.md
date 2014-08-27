@@ -1,8 +1,6 @@
 
- ### Ajankohtaista  
-Lue tästä [Firenzen Kulttuuripäivistä](http://www.lyceumclub.org/files/General%20news/Welcome_in_Florence.pdf "Florence") 22-25 toukokuuta 2014.
 
-  
+
   ### Lyceumklubi
 
 
