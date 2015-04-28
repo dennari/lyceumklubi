@@ -26,3 +26,4 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
     * Marianne Penttinen
 	* Hanna-Liisa Ryti-Erkinheimo
     
+    
