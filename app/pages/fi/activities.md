@@ -22,6 +22,7 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
 	* Kaisu Santala, suomenkielinen sihteeri
 	* Eva Werner, ruotsinkielinen sihteeri 
 * Muut jäsenet  
-	* Marianne Penttinen
-    * Hanna-Liisa Ryti-Erkinheimo
-	* Irma Stenius
+	* Ingegerd Nyström
+    * Marianne Penttinen
+	* Hanna-Liisa Ryti-Erkinheimo
+    
