@@ -22,6 +22,6 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
 	* Kaisu Santala, finskspråkig sekreterare
 	* Eva Werner, svenskspråkig sekreterare 
 * Övriga medlemmar  
+	* Ingegerd Nyström
 	* Marianne Penttinen
 	* Hanna-Liisa Ryti-Erkinheimo
-	* Irma Stenius
