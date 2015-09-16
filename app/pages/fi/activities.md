@@ -3,8 +3,8 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 
 <h3 id="program">Ohjelma</h3>
 
-####  [Kevään 2015 ohjelma](https://www.dropbox.com/s/toaxb6aw7rwqfky/LK.ohjelma.kev%C3%A4t2015.pdf?dl=0)
-Tässä näet [viime syksyn ohjelman](/assets/LK_2014_program_fall_fi.pdf)  
+####  [Syksyn 2015 ohjelma](https://www.dropbox.com/s/3qceckgipf46x3t/LK%20ohjelma%20syksy2015%20webben.pdf?dl=0)
+  
 
 <h3 id="membership">Jäsenyys</h3>
 
@@ -25,5 +25,3 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
 	* Ingegerd Nyström
     * Marianne Penttinen
 	* Hanna-Liisa Ryti-Erkinheimo
-    
-    
