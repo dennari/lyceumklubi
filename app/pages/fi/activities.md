@@ -3,7 +3,7 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 
 <h3 id="program">Ohjelma</h3>
 
-####  [Syksyn 2015 ohjelma](https://www.dropbox.com/s/3qceckgipf46x3t/LK%20ohjelma%20syksy2015%20webben.pdf?dl=0)
+####  [Syksyn 2015 ohjelma](https://www.dropbox.com/s/qh08zlhgoip2xpa/LK%20ohjelma%20kev%C3%A4t2016.pdf?dl=0)
   
 
 <h3 id="membership">Jäsenyys</h3>
