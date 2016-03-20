@@ -7,8 +7,9 @@ tel. (09) 135 7281
 *Styrelsens ordförande*  
   Leena Kahlas-Tarkka, tel. 040 5465187   
 *Styrelsens vice ordförande*  
-  Birgitta Geust   
+  Christina Lindström   
 *Finskspråkig sekreterare*  
-  Kaisu Santala, tel. 050 5151240  
+  Meri-Tuuli Aakula  
+  
 *Svenskspråkig sekreterare*  
-  Eva Werner, tel. 0400 846658  
+  Ingegerd Nyström
