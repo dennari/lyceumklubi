@@ -8,8 +8,8 @@ puh. (09) 135 7281
 *Hallituksen puheenjohtaja*  
   Leena Kahlas-Tarkka, puh. 040 5465187  
 *Hallituksen varapuheenjohtaja*  
-  Birgitta Geust   
+  Christina Lindström   
 *Suomenkielinen sihteeri*  
-  Kaisu Santala, puh. 050 5151240   
+  Meri-Tuuli Aakula   
 *Ruotsinkielinen sihteeri*  
-  Eva Werner, puh. 0400 846658  
+  Ingegerd Nyström
