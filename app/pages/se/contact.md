@@ -10,6 +10,5 @@ tel. (09) 135 7281
   Christina Lindström   
 *Finskspråkig sekreterare*  
   Meri-Tuuli Aakula  
-  
 *Svenskspråkig sekreterare*  
   Ingegerd Nyström
