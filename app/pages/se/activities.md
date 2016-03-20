@@ -17,11 +17,11 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
 * Ordförande 
 	* Leena Kahlas-Tarkka    
 * Vice ordförande 
-	* Birgitta Geust    
+	* Christina Lindström    
 * Sekreterare
-	* Kaisu Santala, finskspråkig sekreterare
-	* Eva Werner, svenskspråkig sekreterare 
+	* Meri-Tuuli Aakula, finskspråkig sekreterare
+	* Ingegerd Nyström, svenskspråkig sekreterare 
 * Övriga medlemmar  
-	* Ingegerd Nyström
 	* Marianne Penttinen
-	* Hanna-Liisa Ryti-Erkinheimo
+	* Kaisu Santala
+	* Eva Snellman
