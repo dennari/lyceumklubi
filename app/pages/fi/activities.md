@@ -17,11 +17,11 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
 * Puheenjohtaja 
 	* Leena Kahlas-Tarkka   
 * Varapuheenjohtaja 
-	* Birgitta Geust 
+	* Christina Lindström 
 * Sihteerit
-	* Kaisu Santala, suomenkielinen sihteeri
-	* Eva Werner, ruotsinkielinen sihteeri 
+	* Meri-Tuuli Aakula, suomenkielinen sihteeri
+	* Ingegerd Nyström, ruotsinkielinen sihteeri 
 * Muut jäsenet  
-	* Ingegerd Nyström
-    * Marianne Penttinen
-	* Hanna-Liisa Ryti-Erkinheimo
+	* Marianne Penttinen
+    * Kaisu Santala
+	* Eva Snellman
