@@ -3,12 +3,12 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 
 <h3 id="program">Ohjelma</h3>
 
-####  [Syksyn 2016 ohjelma](https://www.dropbox.com/s/rs3rrx95yxe9l73/LK%20ohjelma%20syksy2016%2C%20webb.pdf?dl=0)
+####  [Kevään 2017 ohjelma](https://www.dropbox.com/s/r26a33u1v1b66hj/LK%20ohjelma%20kev%C3%A4t2017.pdf?dl=0)
   
 
 <h3 id="membership">Jäsenyys</h3>
 
-Sääntöjen   mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2016 liittymismaksu on 20 euroa ja vuosittainen jäsenmaksu 50 euroa.    
+Sääntöjen   mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2016 liittymismaksu oli 20 euroa ja vuosittainen jäsenmaksu 50 euroa.    
 
 <h3 id="administration">Hallitus</h3>
 
