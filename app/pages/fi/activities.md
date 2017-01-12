@@ -1,6 +1,8 @@
 
 Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen esitelmätilaisuuksiin, joita järjestetään vuosittain noin 25. Niiden aiheita ja esitelmänpitäjiä valitessaan ohjelmatoimikunta kiinnittää huomiota monipuolisuuden lisäksi myös aiheen ja sen tarkastelukulman ajankohtaisuuteen. Oman osansa klubi-iltojen ohjelmasta muodostaa esitelmän jälkeen käytävä keskustelu. Kevätkauden ohjelma julkaistaan tammi- ja syyskauden ohjelma syyskuun alussa. Kevätkauden päättää perinteinen kevätretki kulttuurihistoriallisesti kiinnostavaan kohteeseen ja syyskauden lopuksi klubihuoneistossa vietetään yhteistä joulujuhlaa.
 
+Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelimitse tai sähköpostilla, katso Yhteystiedot. 
+
 <h3 id="program">Ohjelma</h3>
 
 ####  [Kevään 2017 ohjelma](https://www.dropbox.com/s/r26a33u1v1b66hj/LK%20ohjelma%20kev%C3%A4t2017.pdf?dl=0)
