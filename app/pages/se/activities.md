@@ -1,6 +1,8 @@
 
 Numera består Helsingfors Lyceumklubbs verksamhet i huvudsak av ca 25 föredragstillfällen per år.  Då programkommittén planerar dessa beaktas både mångsidighet och aktuella synpunkter. Efter klubbaftnarnas föredrag dricker vi te och diskuterar föredraget eller andra intressanta ämnen. Vårterminens program ges ut i början av januari och höstterminens i början av september. Vårterminen avslutas med en traditionell utfärd till något kulturhistoriskt intressant mål och i slutet av höstterminen firas en gemensam julfest i klubblokalen.  
 
+Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefon eller e-post, se Kontakt.
+
 <h3 id="program">Program</h3>
 
 #### [Vårens 2017 program](https://www.dropbox.com/s/ict1fsxooo5zt6a/LK%20program%20v%C3%A5r2017.pdf?dl=0)    
