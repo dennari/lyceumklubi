@@ -3,12 +3,12 @@ Numera består Helsingfors Lyceumklubbs verksamhet i huvudsak av ca 25 föredrag
 
 <h3 id="program">Program</h3>
 
-#### [Höstens 2016 program](https://www.dropbox.com/s/vfl26snz17bm2jn/LK%20program%20h%C3%B6st2016%2C%20webb.pdf?dl=0)    
+#### [Höstens 2016 program](https://www.dropbox.com/s/ict1fsxooo5zt6a/LK%20program%20v%C3%A5r2017.pdf?dl=0)    
 
 
 <h3 id="membership">Medlemskap</h3>
 
-Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2016 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 50 euro.
+Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2016 var inskrivningsavgiften 20 euro och den årliga medlemsavgiften 50 euro.
      
 <h3 id="administration">Styrelse</h3>
 
