@@ -4,6 +4,7 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelimitse tai sähköpostilla, katso Yhteystiedot. 
 
 <h3 id="program">Ohjelma</h3>
+
 Huom. ohjelmanmuutos:
 11.4.2017 Marianna Flinckenberg-Gluschkoff pitää esitelmän "Om ikonernas språk" (ruotsiksi)
 ####  [Kevään 2017 ohjelma](https://www.dropbox.com/s/r26a33u1v1b66hj/LK%20ohjelma%20kev%C3%A4t2017.pdf?dl=0)
