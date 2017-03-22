@@ -6,7 +6,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 <h3 id="program">Program</h3>
 
 OBS, programförändring:    
-11.4.2017 hör vi Marianna Flinckenberg-Gluschkoffs föredrag "Om ikonernas språk" 
+11.4.2017 hör vi Marianna Flinckenberg-Gluschkoffs föredrag "Om ikonernas språk". 
 #### [Vårens 2017 program](https://www.dropbox.com/s/ict1fsxooo5zt6a/LK%20program%20v%C3%A5r2017.pdf?dl=0)      
 
 
