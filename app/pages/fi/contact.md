@@ -5,10 +5,5 @@ puh. (09) 135 7281
 [h.lyceum@gmail.com](mailto:h.lyceum@gmail.com)	
 
 *Hallituksen puheenjohtaja*  
-  Leena Kahlas-Tarkka, puh. 040 5465187  
-*Hallituksen varapuheenjohtaja*  
-  Christina Lindström   
-*Suomenkielinen sihteeri*  
-  Meri-Tuuli Aakula   
-*Ruotsinkielinen sihteeri*  
-  Ingegerd Nyström
+  Benita Tallqvist, puh. 0500 318 296  
+
