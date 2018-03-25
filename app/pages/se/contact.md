@@ -5,5 +5,4 @@ tel. (09) 135 7281
 [h.lyceum@gmail.com](mailto:h.lyceum@gmail.com)
 
 *Styrelsens ordförande*  
-  Benita Tallqvist, tel. 0500 318 296   
-
+  Benita Tallqvist, tel. 0500 318 296
