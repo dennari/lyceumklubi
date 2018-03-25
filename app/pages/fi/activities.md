@@ -11,20 +11,20 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 
 <h3 id="membership">Jäsenyys</h3>
 
-Sääntöjen   mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2017 liittymismaksu on 20 euroa ja vuosittainen jäsenmaksu 50 euroa.    
+Sääntöjen   mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2018 liittymismaksu on 20 euroa ja vuosittainen jäsenmaksu 50 euroa.    
 
 <h3 id="administration">Hallitus</h3>
 
 Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjohtaja ja kuusi varsinaista ja kaksi varajäsentä. Hallitus valitaan kahdeksi vuodeksi kerrallaan. Puheenjohtaja on vuoroin suomen-, vuoroin ruotsinkielinen, lisäksi puolet hallituksen jäsenistä on suomen- ja puolet ruotsinkielisiä.
 
 * Puheenjohtaja 
-	* Leena Kahlas-Tarkka   
+	* Benita Tallqvist   
 * Varapuheenjohtaja 
-	* Christina Lindström 
+	* Kristina Kahlas-Capodistrias 
 * Sihteerit
 	* Meri-Tuuli Aakula, suomenkielinen sihteeri
 	* Ingegerd Nyström, ruotsinkielinen sihteeri 
 * Muut jäsenet  
-	* Marianne Penttinen
-    * Kaisu Santala
+	* Christina Lindström
+    * Marianne Penttinen
 	* Eva Snellman
