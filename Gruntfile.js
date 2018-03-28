@@ -18,7 +18,7 @@ module.exports = function (grunt) {
         yeoman: {
             app: 'app',
             dist: 'dist'
-        },      
+        },
         watch: {
             recess: {
                 files: ['<%= yeoman.app %>/styles/{,*/}*.less'],
@@ -45,80 +45,80 @@ module.exports = function (grunt) {
                 ]
             },
             assemble: {
-              files: [
+                files: [
                     '<%= yeoman.app %>/**/*.md',
                     '<%= yeoman.app %>/layouts/*.hbs',
-                     '<%= yeoman.app %>/pages/*.hbs',
-                     '<%= yeoman.app %>/index.hbs',
-                     '<%= yeoman.app %>/partials/*.hbs'],
-              tasks: ['assemble']
+                    '<%= yeoman.app %>/pages/*.hbs',
+                    '<%= yeoman.app %>/index.hbs',
+                    '<%= yeoman.app %>/partials/*.hbs'],
+                tasks: ['assemble']
             }
         },
         recess: {
-          options: {
-            compile: true    
-          },
-          server: {
-            src: ['<%= yeoman.app %>/styles/main.less','<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
-            dest: '.tmp/styles/main.css'
-          },
-          dist: {
             options: {
-              compress: true
+                compile: true
             },
-            src: ['<%= yeoman.app %>/styles/main.less','<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
-            dest: '<%= yeoman.dist %>/styles/main.css'
-          },
-          // theme: {
-          //   src: ['less/theme.less'],
-          //   dest: 'dist/css/<%= pkg.name %>-theme.css'
-          // },
-          // theme_min: {
-          //   options: {
-          //     compress: true
-          //   },
-          //   src: ['less/theme.less'],
-          //   dest: 'dist/css/<%= pkg.name %>-theme.min.css'
-          // }
+            server: {
+                src: ['<%= yeoman.app %>/styles/main.less', '<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
+                dest: '.tmp/styles/main.css'
+            },
+            dist: {
+                options: {
+                    compress: true
+                },
+                src: ['<%= yeoman.app %>/styles/main.less', '<%= yeoman.app %>/vendor/magnific-popup/dist/magnific-popup.css'],
+                dest: '<%= yeoman.dist %>/styles/main.css'
+            },
+            // theme: {
+            //   src: ['less/theme.less'],
+            //   dest: 'dist/css/<%= pkg.name %>-theme.css'
+            // },
+            // theme_min: {
+            //   options: {
+            //     compress: true
+            //   },
+            //   src: ['less/theme.less'],
+            //   dest: 'dist/css/<%= pkg.name %>-theme.min.css'
+            // }
         },
         assemble: {
-          options: {
-            flatten: true,
-            layoutdir: '<%= yeoman.app %>/layouts',
-            assets: '<%= yeoman.app %>/assets',
-            partials: ['<%= yeoman.app %>/partials/*.hbs'],
-            distdir: '<%= yeoman.dist %>',
-            data: '<%= yeoman.app %>/**/*.json',
-            helpers: ['handlebars-helper-compose', 'hbs-helpers/*.js'],
-            language: 'fi',
-              compose: {
-                    cwd: '<%= yeoman.app %>/pages/fi'
-                }
-          },
-          fi: {
             options: {
+                flatten: true,
+                layoutdir: '<%= yeoman.app %>/layouts',
+                assets: '<%= yeoman.app %>/assets',
+                partials: ['<%= yeoman.app %>/partials/*.hbs'],
+                distdir: '<%= yeoman.dist %>',
+                data: '<%= yeoman.app %>/**/*.json',
+                helpers: ['handlebars-helper-compose', 'hbs-helpers/*.js'],
                 language: 'fi',
                 compose: {
                     cwd: '<%= yeoman.app %>/pages/fi'
                 }
             },
-            files: {              
-              '.tmp/del/': ['<%= yeoman.app %>/pages/fi/*'],
-              '.tmp/fi/': ['<%= yeoman.app %>/index.hbs']
-            }
-          },
-          se: {
-            options: {
-                language: 'se',
-                compose: {
-                    cwd: '<%= yeoman.app %>/pages/se'
+            fi: {
+                options: {
+                    language: 'fi',
+                    compose: {
+                        cwd: '<%= yeoman.app %>/pages/fi'
+                    }
+                },
+                files: {
+                    '.tmp/del/': ['<%= yeoman.app %>/pages/fi/*'],
+                    '.tmp/fi/': ['<%= yeoman.app %>/index.hbs']
                 }
             },
-            files: {
-              '.tmp/del/': ['<%= yeoman.app %>/pages/se/*'],
-              '.tmp/se/': ['<%= yeoman.app %>/index.hbs']
+            se: {
+                options: {
+                    language: 'se',
+                    compose: {
+                        cwd: '<%= yeoman.app %>/pages/se'
+                    }
+                },
+                files: {
+                    '.tmp/del/': ['<%= yeoman.app %>/pages/se/*'],
+                    '.tmp/se/': ['<%= yeoman.app %>/index.hbs']
+                }
             }
-          }
         },
         connect: {
             options: {
@@ -173,12 +173,12 @@ module.exports = function (grunt) {
                     mangle: false
                 },
                 files: {
-                  '.tmp/scripts/main.js': [
-                    '<%= yeoman.app %>/scripts/main.js',
-                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
-                    '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
-                    ]  
-                } 
+                    '.tmp/scripts/main.js': [
+                        '<%= yeoman.app %>/scripts/main.js',
+                        '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
+                        '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
+                    ]
+                }
             },
             dist: {
                 options: {
@@ -187,12 +187,12 @@ module.exports = function (grunt) {
                     compress: false
                 },
                 files: {
-                  '<%= yeoman.dist %>/scripts/main.js': [
-                    '<%= yeoman.app %>/scripts/main.js',
-                    '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
-                    '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
-                    ]  
-                } 
+                    '<%= yeoman.dist %>/scripts/main.js': [
+                        '<%= yeoman.app %>/scripts/main.js',
+                        '<%= yeoman.app %>/vendor/bootstrap/dist/js/bootstrap.js',
+                        '<%= yeoman.app %>/vendor/magnific-popup/dist/jquery.magnific-popup.js'
+                    ]
+                }
             }
         },
         filerev: {
@@ -242,25 +242,25 @@ module.exports = function (grunt) {
         // Put files not handled in other tasks here
         copy: {
             fi_index: {
-              expand: true,
-              cwd: '.tmp/fi/',
-              dest: '.tmp/',
-              src: ['index.html']
+                expand: true,
+                cwd: '.tmp/fi/',
+                dest: '.tmp/',
+                src: ['index.html']
             },
             se_index: {
-              expand: true,
-              cwd: '<%= yeoman.dist %>/se',
-              dest: '<%= yeoman.dist %>',
-              src: ['index.html']
+                expand: true,
+                cwd: '<%= yeoman.dist %>/se',
+                dest: '<%= yeoman.dist %>',
+                src: ['index.html']
             },
             img: {
-                    expand: true,
-                    dot: true,
-                    cwd: '<%= yeoman.app %>',
-                    dest: '<%= yeoman.dist %>',
-                    src: [
-                        'assets/{,*/}*.{jpg,png,gif}',
-                    ]
+                expand: true,
+                dot: true,
+                cwd: '<%= yeoman.app %>',
+                dest: '<%= yeoman.dist %>',
+                src: [
+                    'assets/{,*/}*.{jpg,png,gif}',
+                ]
             },
             dist: {
                 files: [{
@@ -274,7 +274,7 @@ module.exports = function (grunt) {
                         'assets/{,*/}*.pdf',
                         'styles/fonts/{,*/}*.*'
                     ]
-                },{
+                }, {
                     expand: true,
                     dot: true,
                     cwd: '.tmp',
@@ -283,7 +283,7 @@ module.exports = function (grunt) {
                         '*.html',
                         'fi/*.html',
                         'se/*.html'
-                    ]   
+                    ]
                 }]
             },
             styles: {
@@ -308,7 +308,7 @@ module.exports = function (grunt) {
                 'recess:dist',
                 'uglify:dist',
                 'imagemin'
-            ]         
+            ]
         },
         aws: {
             "bucketfi": "www.helsinginlyceumklubi.fi",
@@ -317,57 +317,57 @@ module.exports = function (grunt) {
             "region": "eu-west-1"
         },
         s3: {
-          options: {
-            bucket: "<%= aws.bucketfi %>",
-            region : "<%= aws.region %>",
-            headers: {
-                Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
-                CacheControl: 2*360*24*3600 //max-age=630720000, public
-            }
-          },
-          jscss: {
-             options: {
-                gzip: true
-            },
-            cwd: "<%= yeoman.dist %>/",
-            src: [
-                "styles/*.css",
-                "scripts/*.js"
-            ]
-          },
-          html: {
             options: {
-                gzip: true,
+                bucket: "<%= aws.bucketfi %>",
+                region: "<%= aws.region %>",
                 headers: {
-                    Expires: new Date(),
-                    CacheControl: 0 //max-age=630720000, public
+                    Expires: new Date('2050'), //Sat, 01 Jan 2050 00:00:00 GMT
+                    CacheControl: 2 * 360 * 24 * 3600 //max-age=630720000, public
                 }
             },
-            cwd: "<%= yeoman.dist %>/",
-            src: ['*', 'fi/*.html', 'se/*.html']
-          },
-          img: {
-            options: {
-                gzip: false
+            jscss: {
+                options: {
+                    gzip: true
+                },
+                cwd: "<%= yeoman.dist %>/",
+                src: [
+                    "styles/*.css",
+                    "scripts/*.js"
+                ]
             },
-            cwd: "<%= yeoman.dist %>/",
-            src: [                
-                "assets/{,*/}*.{jpg,png,ico}"
-            ]
-          },
-          pdf: {
-            options: {
-                gzip: false,
-                 headers: {
-                    Expires: new Date(),
-                    CacheControl: 0 //max-age=630720000, public
-                }
+            html: {
+                options: {
+                    gzip: true,
+                    headers: {
+                        Expires: new Date(),
+                        CacheControl: 0 //max-age=630720000, public
+                    }
+                },
+                cwd: "<%= yeoman.dist %>/",
+                src: ['*', 'fi/*.html', 'se/*.html']
             },
-            cwd: "<%= yeoman.dist %>/",
-            src: [                
-                "assets/{,*/}*.pdf"
-            ]
-          }
+            img: {
+                options: {
+                    gzip: false
+                },
+                cwd: "<%= yeoman.dist %>/",
+                src: [
+                    "assets/{,*/}*.{jpg,png,ico}"
+                ]
+            },
+            pdf: {
+                options: {
+                    gzip: false,
+                    headers: {
+                        Expires: new Date(),
+                        CacheControl: 0 //max-age=630720000, public
+                    }
+                },
+                cwd: "<%= yeoman.dist %>/",
+                src: [
+                    "assets/{,*/}*.pdf"
+                ]
+            }
         }
     });
 
@@ -402,8 +402,8 @@ module.exports = function (grunt) {
     });
 
     grunt.registerTask('server', function () {
-      grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
-      grunt.task.run(['serve']);
+        grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
+        grunt.task.run(['serve']);
     });
 
     // grunt.registerTask('test', [
@@ -415,46 +415,46 @@ module.exports = function (grunt) {
     // ]);
 
     grunt.registerTask('revlog', function () {
-      grunt.log.writeln(JSON.stringify(grunt.filerev.summary,null,2));
+        grunt.log.writeln(JSON.stringify(grunt.filerev.summary, null, 2));
     });
 
 
-    if(grunt.file.exists('.aws-credentials.json')) {
+    if (grunt.file.exists('.aws-credentials.json')) {
         var credentials = grunt.file.readJSON('.aws-credentials.json');
-        grunt.config("s3.options.accessKeyId",credentials.key);
-        grunt.config("s3.options.secretAccessKey",credentials.secret);
+        grunt.config("s3.options.accessKeyId", credentials.key);
+        grunt.config("s3.options.secretAccessKey", credentials.secret);
     } else {
-        grunt.config("s3.options.accessKeyId",process.env.AWS_KEY);
-        grunt.config("s3.options.secretAccessKey",process.env.AWS_SECRET);
+        grunt.config("s3.options.accessKeyId", process.env.AWS_KEY);
+        grunt.config("s3.options.secretAccessKey", process.env.AWS_SECRET);
     }
 
     grunt.registerTask('s3test', function () {
-        grunt.config("s3.options.bucket",grunt.config("aws.bucket-test"));
+        grunt.config("s3.options.bucket", grunt.config("aws.bucket-test"));
         grunt.task.run(['s3']);
 
     });
 
     grunt.registerTask('s3se', function () {
-        grunt.config("s3.options.bucket",grunt.config("aws.bucket-se"));
-        grunt.task.run(['copy:se_index','s3']);
+        grunt.config("s3.options.bucket", grunt.config("aws.bucket-se"));
+        grunt.task.run(['copy:se_index', 's3']);
 
     });
 
 
     grunt.registerTask('heroku', function (env) {
-        if(env == "PRODUCTION")
-            grunt.task.run(['build','s3','s3se']);
+        if (env == "PRODUCTION")
+            grunt.task.run(['build', 's3', 's3se']);
         else
-            grunt.task.run(['build','s3test']);
+            grunt.task.run(['build', 's3test']);
     });
 
     grunt.registerTask('default', function () {
-        grunt.task.run(['build','s3test']);
+        grunt.task.run(['build', 's3test']);
     });
 
 
 
-    grunt.registerTask('build', function() {
+    grunt.registerTask('build', function () {
         grunt.task.run([
             'clean:dist',
             'recess:dist',
@@ -467,7 +467,15 @@ module.exports = function (grunt) {
             'copy:dist',
             'revlog'
         ]);
-        
+
+    });
+
+    grunt.registerTask('build_se', function () {
+        grunt.task.run([
+            'build',
+            'copy:se_index',
+        ]);
+
     });
 
 
