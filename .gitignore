@@ -2,6 +2,8 @@ node_modules
 dist
 .tmp
 .sass-cache
+.bower-cache
+.bower-registry
 app/vendor
 .DS_Store
 .~*
