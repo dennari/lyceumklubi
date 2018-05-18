@@ -1,25 +1,28 @@
 <!doctype html>
-<html> 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}} {{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+<html>
 
-    <link rel="stylesheet" href="/{{rev "styles/main.css"}}">
-    <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-    <script>
-      WebFont.load({
-        google: {
-          families: ['Vollkorn:400italic,400,700:latin','Open+Sans:400,300:latin']
-        }
-      });
-    </script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{#tr "helsinkis"}}{{capitalizeFirst translated}}{{/tr}} {{#tr "lyceumclub"}}{{capitalizeFirst translated}}{{/tr}}</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
 
-  </head>
+  <link rel="stylesheet" href="/{{rev " styles/main.css "}}">
+  <script src="//identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Vollkorn:400italic,400,700:latin', 'Open+Sans:400,300:latin']
+      }
+    });
+  </script>
+
+</head>
+
 <body>
-<div id="bottom-line"></div>
+  <div id="bottom-line"></div>
 
   {{>navbar}}
 
@@ -42,17 +45,31 @@
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X');ga('send','pageview');
+    (function (b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+      function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+      e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
   </script>
 
-  
-  <script src="/{{rev "scripts/main.js"}}"></script>
-  
-  
+
+  <script src="/{{rev " scripts/main.js "}}"></script>
+  <!-- Netlify logins -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+
 </body>
+
 </html>
