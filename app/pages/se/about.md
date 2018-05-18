@@ -1,12 +1,11 @@
-
-
-  
-  
+---
+title: Lyceumklubben
+---
 
 Helsingfors Lyceumklubb är en förening för damer intresserade av konst, vetenskap och samhälleliga frågor. Föreningen är grundad år 1932 och funktionerar i sin charmiga lägenhet i Kronohagen. Föreningen är tvåspråkig med turvis finsk- och svenskspråkiga föredrag. Medlemsantalet är ca 125.
 
 I föreningens stadgar (§ 1) sägs:
->Klubbens syfte är att främja samförstånd mellan kvinnor, som verkar på olika områden, är intresserade av konst, vetenskap och sociala frågor. För att nå sitt mål anordnar klubben för sina medlemmar 
+>Klubbens syfte är att främja samförstånd mellan kvinnor, som verkar på olika områden, är intresserade av konst, vetenskap och sociala frågor. För att nå sitt mål anordnar klubben för sina medlemmar
 
 >* föredragstillfällen från olika kulturområden,
 >* besök till utställningar och exkursionsmål,
