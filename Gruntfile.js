@@ -277,7 +277,14 @@ module.exports = function(grunt) {
         cwd: "<%= yeoman.app %>/styles",
         dest: ".tmp/styles/",
         src: "{,*/}*.css"
-      }
+      },
+      admin: {
+        expand: true,
+        dot: true,
+        cwd: "<%= yeoman.app %>",
+        dest: "<%= yeoman.dist %>",
+        src: ["admin/{,*/}*.*"]
+      },
     },
     concurrent: {
       server: ["recess:server", "uglify:server", "copy:styles", "assemble"],
