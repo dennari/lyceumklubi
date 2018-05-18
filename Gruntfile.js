@@ -355,6 +355,7 @@ module.exports = function(grunt) {
       "assemble",
       "copy:fi_index",
       "copy:dist",
+      "copy:admin",
       "revlog"
     ]);
   });
