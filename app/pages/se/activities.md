@@ -7,7 +7,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program</h3>
 
-#### [Vårens 2018 program](/assets/lk-program-vår2018-webb.pdf)
+#### [Höstens 2018 program](/assets/lk-program-höst2018-webb.pdf)
 
 <h3 id="membership">Medlemskap</h3>
 
