@@ -9,7 +9,7 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 <h3 id="program">Ohjelma</h3>
 
 
-####  [Kevään 2018 ohjelma](https://www.dropbox.com/s/ejo2j9ks6442ifp/LK%20ohjelma%20kev%C3%A4t2018%20webb.pdf?dl=0)
+####  [Syksyn 2018 ohjelma](/assets/lk-ohjelma-syksy2018-webb.pdf)
 
 
 <h3 id="membership">Jäsenyys</h3>
