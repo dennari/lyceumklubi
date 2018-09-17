@@ -15,8 +15,19 @@ Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av 
 
 <h3 id="administration">Styrelse</h3>
 
-De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består av ordförande och sex ordinarie medlemmar och två suppleanter. Styrelsen väljs för två år i taget. Ordföranden är i tur och ordning finsk- och svenskspråkig, därtill är hälften av styrelsens medlemmar finskspråkiga och hälften svenskspråkiga.
+De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består av ordförande och sex ordinarie medlemmar och två suppleanter. Styrelsen väljs för två år i taget. Ordföranden är i tur och ordning finsk- och svenskspråkig, därtill är hälften av styrelsens medlemmar finskspråkiga och hälften svenskspråkiga. ruotsinkielisiä.
 
+* Ordförande
+  		* Benita Tallqvist
+* Vice ordförande
+  		* Kristina Kahlas-Capodistrias
+* Sekreterare
+  		_ Meri-Tuuli Aakula, finskspråkig sekreterare
+  		_ Ingegerd Nyström, svenskspråkig sekreterare
+* Övriga medlemmar
+  		* Christina Lindström
+  * Marianne Penttinen
+    	* Eva Snellman
 * Ordförande
   		* Benita Tallqvist
 * Vice ordförande
