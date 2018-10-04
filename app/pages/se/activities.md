@@ -22,9 +22,9 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
 * Vice ordförande
   		* Kristina Kahlas-Capodistrias
 * Sekreterare
-  		_\* _Meri-Tuuli Aakula, finskspråkig sekreterare
-  		 * Ingegerd Nyström, svenskspråkig sekreterare
+  		* Meri-Tuuli Aakula, finskspråkig sekreterare
+  		* Ingegerd Nyström, svenskspråkig sekreterare
 * Övriga medlemmar
-  		 _\* _Christina Lindström_
-  		 _\* Marianne Penttinen
-  		 \* Eva Snellman
+  		 * Christina Lindström
+  		 * Marianne Penttinen
+  		 * Eva Snellman
