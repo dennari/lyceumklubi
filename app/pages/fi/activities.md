@@ -21,13 +21,13 @@ Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kii
 Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjohtaja ja kuusi varsinaista ja kaksi varajäsentä. Hallitus valitaan kahdeksi vuodeksi kerrallaan. Puheenjohtaja on vuoroin suomen-, vuoroin ruotsinkielinen, lisäksi puolet hallituksen jäsenistä on suomen- ja puolet ruotsinkielisiä.
 
 * Puheenjohtaja
-	* Benita Tallqvist
+  * Benita Tallqvist
 * Varapuheenjohtaja
-	* Kristina Kahlas-Capodistrias
+  * Kristina Kahlas-Capodistrias
 * Sihteerit
-	* Meri-Tuuli Aakula, suomenkielinen sihteeri
-	* Ingegerd Nyström, ruotsinkielinen sihteeri
+  * Meri-Tuuli Aakula, suomenkielinen sihteeri
+  * Ingegerd Nyström, ruotsinkielinen sihteeri
 * Muut jäsenet
-	* Christina Lindström
-    * Marianne Penttinen
-	* Eva Snellman
+  * Christina Lindström
+  * Marianne Penttinen
+  * Eva Snellman
