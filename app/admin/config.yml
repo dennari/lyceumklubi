@@ -7,24 +7,58 @@ display_url: https://www.helsinginlyceumklubi.fi
 collections:
   - name: fi
     label: Suomi
-    folder: app/pages/fi
-    create: false
-    fields: # The fields for each document, usually in front matter
-#      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-#      - {label: "Publish Date", name: "date", widget: "datetime"}
-#      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-#      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - label: Lyceumklubi
+        name: about
+        file: app/pages/fi/about.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: Toiminta
+        name: activities
+        file: app/pages/fi/activities.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Ohjelma otsikko"
+            name: "program_title"
+            widget: "string"
+          - label: "Ohjelma PDF"
+            name: "program_file"
+            widget: "file"
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: Yhteystiedot
+        name: contact
+        file: app/pages/fi/contact.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
   - name: se
     label: Ruotsi
     folder: app/pages/se
     create: false
-    fields: # The fields for each document, usually in front matter
-#      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-#      - {label: "Publish Date", name: "date", widget: "datetime"}
-#      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-#      - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-      - {label: "Body", name: "body", widget: "markdown"}
+    files:
+      - label: Lyceumklubi
+        name: about
+        file: app/pages/se/about.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: Toiminta
+        name: activities
+        file: app/pages/se/activities.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Ohjelma otsikko"
+            name: "program_title"
+            widget: "string"
+          - label: "Ohjelma PDF"
+            name: "program_file"
+            widget: "file"F
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: Yhteystiedot
+        name: contact
+        file: app/pages/se/contact.md
+        fields: # The fields for each document, usually in front matter
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
 

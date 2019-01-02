@@ -1,7 +1,7 @@
 ---
 title: Toiminta
-program_title: OHJELMA
-program_file: /assets/lk-program-spring-2019-se.pdf
+program_file: /assets/lk-program-spring-2019-fi.pdf
+program_title: Kevään 2019 ohjelma
 ---
 
 Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen esitelmätilaisuuksiin, joita järjestetään vuosittain noin 25. Niiden aiheita ja esitelmänpitäjiä valitessaan ohjelmatoimikunta kiinnittää huomiota monipuolisuuden lisäksi myös aiheen ja sen tarkastelukulman ajankohtaisuuteen. Oman osansa klubi-iltojen ohjelmasta muodostaa esitelmän jälkeen käytävä keskustelu. Kevätkauden ohjelma julkaistaan tammi- ja syyskauden ohjelma syyskuun alussa. Kevätkauden päättää perinteinen kevätretki kulttuurihistoriallisesti kiinnostavaan kohteeseen ja syyskauden lopuksi klubihuoneistossa vietetään yhteistä joulujuhlaa.
@@ -11,7 +11,7 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 <h3 id="program">Ohjelma</h3>
 
 
-####  [Kevään 2019 ohjelma](/assets/lk-program-spring-2019-fi.pdf)
+####  [{{ programTitle }}]({{ programFile }})
 
 
 <h3 id="membership">Jäsenyys</h3>
