@@ -53,7 +53,7 @@ collections:
             widget: "string"
           - label: "Ohjelma PDF"
             name: "program_file"
-            widget: "file"F
+            widget: "file"
           - {label: "Body", name: "body", widget: "markdown"}
       - label: Yhteystiedot
         name: contact
