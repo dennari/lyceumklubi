@@ -9,7 +9,7 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 <h3 id="program">Ohjelma</h3>
 
 
-####  [Kevään 2019 ohjelma](/assets/lk-ohjelma-kevät2019-webb.pdf)
+####  [Kevään 2019 ohjelma](/assets/lk-program-spring-2019-fi.pdf)
 
 
 <h3 id="membership">Jäsenyys</h3>
