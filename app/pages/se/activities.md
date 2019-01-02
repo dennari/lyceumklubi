@@ -9,7 +9,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program</h3>
 
-####  [{{ programTitle }}]({{ programFile }})
+####  [{{ program_title }}]({{ program_file }})
 
 <h3 id="membership">Medlemskap</h3>
 
