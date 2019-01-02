@@ -12,53 +12,58 @@ collections:
         name: about
         file: app/pages/fi/about.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - label: Toiminta
         name: activities
         file: app/pages/fi/activities.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - label: "Ohjelma otsikko"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Ohjelmalinkin otsikko"
             name: "program_title"
             widget: "string"
           - label: "Ohjelma PDF"
             name: "program_file"
             widget: "file"
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
       - label: Yhteystiedot
         name: contact
         file: app/pages/fi/contact.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
   - name: se
     label: Ruotsi
-    folder: app/pages/se
-    create: false
     files:
       - label: Lyceumklubi
         name: about
         file: app/pages/se/about.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - label: Toiminta
         name: activities
         file: app/pages/se/activities.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - label: "Ohjelma otsikko"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Ohjelmalinkin otsikko"
             name: "program_title"
             widget: "string"
           - label: "Ohjelma PDF"
             name: "program_file"
             widget: "file"
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
       - label: Yhteystiedot
         name: contact
         file: app/pages/se/contact.md
         fields: # The fields for each document, usually in front matter
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
