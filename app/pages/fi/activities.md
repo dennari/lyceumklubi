@@ -9,7 +9,7 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 
 <h3 id="program">Ohjelma</h3>
 
-#### \[{{ program_title }}]({{ program_file }})
+#### [{{ program_title }}]({{ program_file }})
 
 <h3 id="membership">Jäsenyys</h3>
 
