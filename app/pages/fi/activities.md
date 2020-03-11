@@ -13,7 +13,7 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 
 <h3 id="membership">Jäsenyys</h3>
 
-Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2020 liittymismaksu on 20 euroa ja vuosittainen jäsenmaksu 55 euroa.
+Sääntöjen mukaan klubin hallitus hyväksyy uudet jäsenet. Jäsenyydestä kiinnostuneita pyydetään ottamaan yhteyttä klubin puheenjohtajaan, jolta saa lisätietoja ja jäsenhakemuslomakkeen. Vuonna 2020  liittymismaksu on 20 euroa ja vuosittainen jäsenmaksu 55 euroa.
 
 <h3 id="administration">Hallitus</h3>
 
