@@ -28,5 +28,5 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
   * Ingegerd Nyström, svenskspråkig sekreterare
 * Övriga medlemmar
   * Satu Kuosmanen
-  * Christina Lindström
+  * Christina Lindström 
   * Eva Snellman
