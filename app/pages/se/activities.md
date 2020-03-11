@@ -13,7 +13,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="membership">Medlemskap</h3>
 
-Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2019 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 55 euro.
+Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2020 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 55 euro.
 
 <h3 id="administration">Styrelse</h3>
 
@@ -27,6 +27,6 @@ De löpande ärendena sköts av en styrelse som valts av årsmötet. Den består
   * Meri-Tuuli Aakula, finskspråkig sekreterare
   * Ingegerd Nyström, svenskspråkig sekreterare
 * Övriga medlemmar
+  * Satu Kuosmanen
   * Christina Lindström
-  * Marianne Penttinen
   * Eva Snellman
