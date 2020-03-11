@@ -27,6 +27,6 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
   * Meri-Tuuli Aakula, suomenkielinen sihteeri
   * Ingegerd Nyström, ruotsinkielinen sihteeri
 * Muut jäsenet
+  * Satu Kuosmanen
   * Christina Lindström
-  * Marianne Penttinen
   * Eva Snellman
