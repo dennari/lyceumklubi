@@ -7,7 +7,7 @@ Numera består Helsingfors Lyceumklubbs verksamhet i huvudsak av ca 25 föredrag
 
 Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefon eller e-post, se Kontakt.
 
-<h3 id="program">Program.  OBS! Alla vårens program är inhiberade tillsvidare</h3>
+<h3 id="program">Program - OBS! Alla vårens program är inhiberade tillsvidare</h3>
 
 #### [{{ program_title }}]({{ program_file }})
 
