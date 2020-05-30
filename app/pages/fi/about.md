@@ -16,7 +16,7 @@ Yhdistyksen säännöissä (§ 1) todetaan seuraavasti:
 
 Helsingin Lyceumklubi kuuluu vuonna 1906 perustettuun Lyceumklubien kansainväliseen liittoon (International Association of Lyceum Clubs). Lue lisää [tästä](http://www.lyceumclubs.org/). Lyceumklubeja on 18 valtiossa kaikkiaan 71 ja niissä jäseniä n. 8200. Kansainvälisen liiton virallisia kieliä ovat englanti, ranska ja saksa. Liiton toiminta-ajatuksena on alusta alkaen ollut ”kansainvälisyys ja jatkuva oppiminen, joiden mukaan jäsenet auttaisivat ja tukisivat
 toisiaan ystävyyden hengessä kautta maailman itsenäisinä ja rohkeina, toivorikkaina ja mieleltään avoimina”. Eri maiden klubilaiset tapaavat joka kolmas vuosi pidettävässä Kansainvälisen liiton kongressissa ja joka toinen vuosi kulttuuritapahtumassa. Näissä kokoontumisissa osallistujille esitellään monipuolisesti kulloistakin isäntämaata. Helsingin Lyceumklubi on toiminut kansainvälisen kongressin järjestäjänä vuosina
-1968 ja 1995.
+1968 ja 1995.  Oulun Lyceumklubi http://www.oulunlyceumklubi.fi/  on järjestänyt kulttuuripäivät vuonna 2018.
 
 ### Klubin historiaa
 
