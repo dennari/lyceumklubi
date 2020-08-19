@@ -7,7 +7,7 @@ Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen e
 
 Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelimitse tai sähköpostilla, katso Yhteystiedot.
 
-<h3 id="program">Ohjelma - </h3>
+<h3 id="program">Ohjelma </h3>
 
 #### [{{ program_title }}]({{ program_file }})
 
