@@ -1,7 +1,7 @@
 ---
 title: Toiminta
-program_title: Syksyn 2020 ohjelma
-program_file: /assets/lk-ohjelma-syksy2020-pdf.pdf
+program_title: Kevään 2021 ohjelma
+program_file: /assets/lk-ohjelma-kevät2021-kopieringsversion-a4-v2.pdf
 ---
 Nykyään Helsingin Lyceumklubin toiminta keskittyy pääasiassa klubi-iltojen esitelmätilaisuuksiin, joita järjestetään vuosittain noin 25. Niiden aiheita ja esitelmänpitäjiä valitessaan ohjelmatoimikunta kiinnittää huomiota monipuolisuuden lisäksi myös aiheen ja sen tarkastelukulman ajankohtaisuuteen. Oman osansa klubi-iltojen ohjelmasta muodostaa esitelmän jälkeen käytävä keskustelu. Kevätkauden ohjelma julkaistaan tammi- ja syyskauden ohjelma syyskuun alussa. Kevätkauden päättää perinteinen kevätretki kulttuurihistoriallisesti kiinnostavaan kohteeseen ja syyskauden lopuksi klubihuoneistossa vietetään yhteistä joulujuhlaa.
 
