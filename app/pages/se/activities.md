@@ -9,7 +9,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program - OBS inhiberade tillsvidare </h3>
 
-Observera att nedanstående ursprungliga "Program våren 2021" tyvärr har ändrats. En del program har inhiberats, en del har flyttats till maj. Ytterligare ändringar är möjliga.
+Observera att nedanstående ursprungliga "Vårens 2021 program" tyvärr har ändrats. En del program har inhiberats, en del har flyttats till maj. Ytterligare ändringar är möjliga.
 
 Tisdag 2.2, Johanna Gullichsen: Vävt för att hålla - inhiberat
 
