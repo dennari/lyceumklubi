@@ -9,6 +9,12 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program - OBS inhiberade tillsvidare </h3>
 
+Observera att nedanstående ursprungliga program tyvärr har ändrats. En del program har inhiberats, en del har flyttats till maj. Ytterligare ändringar är möjliga.
+Tisdag 2.2, Johanna Gullichsen: Vävt för att hålla - inhiberat
+Tisdag 9.2, Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista – flyttat till tisdag 11.5
+Tisdag 16.2, Maria Salenius: John Donne (1572–1631) — dikter om kärlek och evigheten – flyttat till tisdag 4.5
+Tisdag 23.2, Årsmöte - hålls enligt ursprunglig tidtabell, men deltagande kräver förhandsanmälning. Max 10 personer  
+
 #### [{{ program_title }}]({{ program_file }})
 
 <h3 id="membership">Medlemskap</h3>
