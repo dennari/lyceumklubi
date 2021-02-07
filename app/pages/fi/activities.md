@@ -9,6 +9,15 @@ Klubilla on Facebookryhmä. Jos olet kiinnostunut, ota yhteyttä klubiin puhelim
 
 <h3 id="program">Ohjelma - HUOM. peruttu toistaiseksi </h3>
 
+Alla oleva "Kevään 2021 ohjelma" ei ole ajan tasalla, siihen on valitettavasti tullut muutoksia koronarajoitusten vuoksi. Osa ohjelmista on peruttu ja osa siirtyy. Lisää muutoksia voi vielä tulla.
+
+Tiistai 9.2., Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista – siirretty tiistaihin 11.5.
+
+Tiistai 16.2., Maria Salenius: John Donne (1572–1631)  – dikter om kärlek och evigheten – siirretty tiistaihin 4.5.
+
+Tiistai 23.2., Vuosikokous – pidetään aikataulun mukaisesti, mutta osallistuminen edellyttää ennakkoilmoittautumista. Max 10 henkilöä  
+.                                          
+
 #### [{{ program_title }}]({{ program_file }})
 
 <h3 id="membership">Jäsenyys</h3>
