@@ -22,7 +22,7 @@ Tisdag 23.2, Årsmöte - hålls enligt ursprunglig tidtabell, men deltagande kr�
 
 <h3 id="membership">Medlemskap</h3>
 
-Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2020 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 55 euro.
+Enligt stadgarna godkänner styrelsen nya medlemmar. Den som är intresserad av medlemskap kan kontakta ordföranden (se Kontaktuppgifter), av vilken man får tilläggsuppgifter och medlemsansökningsblankett. År 2021 är inskrivningsavgiften 20 euro och den årliga medlemsavgiften 55 euro.
 
 <h3 id="administration">Styrelse</h3>
 
