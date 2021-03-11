@@ -15,8 +15,7 @@ Tiistai 9.2., Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista
 
 Tiistai 16.2., Maria Salenius: John Donne (1572–1631)  – dikter om kärlek och evigheten – siirretty tiistaihin 4.5.
 
-Tiistai 23.2., Vuosikokous – pidetään aikataulun mukaisesti, mutta osallistuminen edellyttää ennakkoilmoittautumista. Max 10 henkilöä  
-.                                          
+                                          
 
 #### [{{ program_title }}]({{ program_file }})
 
