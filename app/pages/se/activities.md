@@ -14,6 +14,7 @@ Observera att nedanstående ursprungliga "Program våren 2021" tyvärr har ändr
 Tisdag 9.2, Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista – flyttat till tisdag 11.5
 
 Tisdag 16.2, Maria Salenius: John Donne (1572–1631) — dikter om kärlek och evigheten – flyttat till tisdag 4.5
+     
                                          
 
 #### [{{ program_title }}]({{ program_file }})
