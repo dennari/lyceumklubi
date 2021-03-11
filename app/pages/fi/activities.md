@@ -14,9 +14,7 @@ Alla oleva "Kevään 2021 ohjelma" ei ole ajan tasalla, siihen on valitettavasti
 Tiistai 9.2., Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista – siirretty tiistaihin 11.5.
 
 Tiistai 16.2., Maria Salenius: John Donne (1572–1631)  – dikter om kärlek och evigheten – siirretty tiistaihin 4.5.
-     .
-                                          
-
+.
 
 #### [{{ program_title }}]({{ program_file }})
 
