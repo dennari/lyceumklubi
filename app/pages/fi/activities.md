@@ -34,7 +34,7 @@ Klubin asioita hoitaa vuosikokouksen valitsema hallitus, johon kuuluu puheenjoht
   * Kristina Kahlas-Capodistrias
 * Sihteerit
   * Meri-Tuuli Aakula, suomenkielinen sihteeri
-  * Ingegerd Nyström, ruotsinkielinen sihteeri
+  * Helena Castrén, ruotsinkielinen sihteeri
 * Muut jäsenet
   * Satu Kuosmanen
   * Christina Lindström
