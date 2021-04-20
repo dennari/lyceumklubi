@@ -9,7 +9,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program - OBS inhiberade tillsvidare </h3>
 
-(20.4.2021)Tyvärr måste vi pga coronarestriktionerna inhibera också resten av vårens program, inklusive museibesöket till Ateneum och vårutfärden till Mäntsälä. Mäntsäläutfärden uppskjuts till september. 
+(20.4.2021) Pga coronarestriktionerna måste vi tyvärr inhibera också resten av vårens program, inklusive museibesöket till Ateneum och vårutfärden till Mäntsälä. Mäntsäläutfärden uppskjuts till september. 
      
                                          
 
