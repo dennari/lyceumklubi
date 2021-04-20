@@ -9,11 +9,7 @@ Klubben har en Facebookgrupp. Om du är intresserad, kontakta klubben via telefo
 
 <h3 id="program">Program - OBS inhiberade tillsvidare </h3>
 
-Observera att nedanstående ursprungliga "Program våren 2021" tyvärr har ändrats på grund av coronarestriktioner. En del program har inhiberats, en del har flyttats till maj. Ytterligare ändringar är möjliga.
-
-Tisdag 9.2, Seppo Seitsalo: Taide vanhin voitehista. Kuvataidetta sairaaloista – flyttat till tisdag 11.5
-
-Tisdag 16.2, Maria Salenius: John Donne (1572–1631) — dikter om kärlek och evigheten – flyttat till tisdag 4.5
+Tyvärr måste vi pga coronarestriktionerna inhibera också resten av vårens program, inklusive museibesöket till Ateneum och vårutfärden till Mäntsälä. Vårutfärden uppskjuts till september. 
      
                                          
 
